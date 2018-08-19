@@ -1,0 +1,1 @@
+    [fire_item setObject:@"THB" forKey:@"Currency"];
