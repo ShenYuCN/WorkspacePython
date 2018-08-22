@@ -24,3 +24,4 @@ print(pattern333.findall(string333))
 string444 = 'frameworkPayload/THAppModule_Example.app/Frameworks/THSmartCustomServiceModule.framework/JSCSLocalizable.bundle/'
 pattern444 = re.compile('Frameworks/(.*).framework')
 print(pattern444.findall(string444))
+# ['THSmartCustomServiceModule']

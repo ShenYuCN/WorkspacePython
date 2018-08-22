@@ -25,12 +25,32 @@ def findAllFrameworks():
 	return frameworks
 	
 def findVersionsInNewIpa(frameworks):
-	print('new',frameworks)
-	file = open('installed_modules').read()
-	print('installed_modules',file)
-	dictData = jsonToDict_two(file)
-	print('dictdata',dictData)
-	print(dictData['JDBUserManagerModule'])
+	file_new = open('installed_modules').read()
+	dict_new = jsonToDict_two(file_new)
+	print('dict_new=====',dict_new)
+	print(dict_new['JDTAFNetworkingModule'])
+
+	file_old = open('framework_list_aready_download').read()
+	dict_old = jsonToDict_two(file_old)
+	print('dict_old=====',dict_old)
+	print(dict_old['JDTAFNetworkingModule'])
+
+	# TODO:最后测试新加framework，旧版本没有的情况
+	tuple_list = []
+	for framework in frameworks:
+		if framework in dict_new:
+			version_new = dict_new[framework]
+			version_old = dict_old.get(framework,'not exist')
+			tuple_list.append((framework,version_new,version_old))
+
+	print('tuple_list====',tuple_list)
+
+	for new_old in tuple_list:
+		if not new_old[1] == new_old[2]:
+			print('%-30s'%new_old[0],'   新版本:', '%-9s'%new_old[1],'   旧版本:',new_old[2])
+
+
+
 
 
 def jsonToDict_one(json):
