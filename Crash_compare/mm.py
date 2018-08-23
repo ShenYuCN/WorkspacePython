@@ -25,6 +25,7 @@ def findAllFrameworks():
 	return frameworks
 	
 def findVersionsInNewIpa(frameworks):
+	# frameworks = ['JDBFoundationModule', 'JDBTrackModule', 'JDDBaseModule', 'JDDThirdPartModule', 'JDTAFNetworkingModule', 'JDTOpenUDIDModule', 'JDTYYModel', 'THSmartCustomServiceModule','THUIKitConfigModule']
 	file_new = open('installed_modules').read()
 	dict_new = jsonToDict_two(file_new)
 	print('dict_new=====',dict_new)
