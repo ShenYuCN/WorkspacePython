@@ -43,43 +43,7 @@ def findVersionsInNewConfigFile(frameworks):
 
 	framework_list.close()
 
-	# dict_new = simplejson.loads(json)(file_new)
-	# print('dict_new=====',dict_new)
-	# print(dict_new['JDTAFNetworkingModule'])
 
-
-
-	# file_old = open('framework_list_aready_download').read()
-	# dict_old = jsonToDict_two(file_old)
-	# print('dict_old=====',dict_old)
-	# print(dict_old['JDTAFNetworkingModule'])
-
-	# # TODO:最后测试新加framework，旧版本没有的情况
-	# tuple_list = []
-	# for framework in frameworks:
-	# 	if framework in dict_new:
-	# 		version_new = dict_new[framework]
-	# 		version_old = dict_old.get(framework,'not exist')
-	# 		tuple_list.append((framework,version_new,version_old))
-
-	# print('tuple_list====',tuple_list)
-
-	# for new_old in tuple_list:
-	# 	if not new_old[1] == new_old[2]:
-	# 		print('%-30s'%new_old[0],'   新版本:', '%-9s'%new_old[1],'   旧版本:',new_old[2])
-
-
-
-
-
-# def jsonToDict_one(json):
-# 	return eval(json)
-
-# def jsonToDict_two(json):
-# 	return simplejson.loads(json)
-	# ret_dict = simplejson.loads(json_str)
-	# 字典到JSON转化：
-	# json_str = simplejson.dumps(dict)
 
 if __name__ == '__main__':
 	frameworks = findAllFrameworks()
