@@ -2,11 +2,20 @@ import zipfile,re,simplejson
 
 
 '''
+优点：  对比本版和上一版的配置，增量更新需要的framework，如果没有更新，那么使用上次的，一个都不需要下载和压缩
+
 1. 取出 ipa 里面 frameworks 里面的所有framworks， 可能新版本会增加新的framework    --->  list
 2. 将第一步取出来的framework列表，在 installed_modules 里面读出这个列表里的framework对应的版本号  --->  list
 3. 第二步取出来的list 和 framework_list_aready_download 内容做对比
 	3.1 最简单的对比就是读2个文件成字符串，然后匹配对比
 	3.2 读出不一样的版本，然后打印出来不一样的framework
+
+
+ibiu下载frameworks有2种：
+	1、biu -d JDDBaseModule_1.1.12   （一次一个）
+	2、biu -dsym  读取 framework_list 里面的配置表下载 （多个同时下载）
+
+
 '''
 def findAllFrameworks():
 	ipa_path = 'test.ipa'
