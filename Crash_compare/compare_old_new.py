@@ -1,9 +1,8 @@
+
 import zipfile
 import re
 import simplejson
 import sys
-
-
 '''
 
 前提： installed_modules   framework_list_aready_download  为标准json，防止和该文件一个平级目录
@@ -25,6 +24,9 @@ ibiu下载frameworks有2种：
 
 
 def findAllFrameworks(ipa_path):
+    """
+    findAllFrameworks----adb
+    """
     # ipa_path = 'test.ipa'
     ipa_file = zipfile.ZipFile(ipa_path)
     # print(ipa_file)
@@ -45,13 +47,13 @@ def findVersionsInNewIpa(frameworks):
     # frameworks = ['JDBFoundationModule', 'JDBTrackModule', 'JDDBaseModule', 'JDDThirdPartModule', 'JDTAFNetworkingModule', 'JDTOpenUDIDModule', 'JDTYYModel', 'THSmartCustomServiceModule','THUIKitConfigModule']
     file_new = open('installed_modules').read()
     dict_new = jsonToDict_two(file_new)
-    print('dict_new=====', dict_new)
-    print(dict_new['JDTAFNetworkingModule'])
+    # print('dict_new=====', dict_new)
+    # print(dict_new['JDTAFNetworkingModule'])
 
     file_old = open('framework_list_aready_download').read()
     dict_old = jsonToDict_two(file_old)
-    print('dict_old=====', dict_old)
-    print(dict_old['JDTAFNetworkingModule'])
+    # print('dict_old=====', dict_old)
+    # print(dict_old['JDTAFNetworkingModule'])
 
     # TODO:最后测试新加framework，旧版本没有的情况
     tuple_list = []
@@ -61,7 +63,7 @@ def findVersionsInNewIpa(frameworks):
             version_old = dict_old.get(framework, 'not exist')
             tuple_list.append((framework, version_new, version_old))
 
-    print('tuple_list====', tuple_list)
+    # print('tuple_list====', tuple_list)
 
     for new_old in tuple_list:
         if not new_old[1] == new_old[2]:
@@ -82,19 +84,11 @@ def jsonToDict_two(json):
 
 if __name__ == '__main__':
     args = sys.argv
-    print(args)
+    # print(args)
     if len(args) < 2 or not args[1].endswith('.ipa'):
         print('Usage: python3 compare.py  /path/to/.ipa')
         sys.exit()
 
     frameworks = findAllFrameworks(args[1])
-    print(frameworks)
+    # print(frameworks)
     versions = findVersionsInNewIpa(frameworks)
-    # args = sys.argv[1:]
-    # if len(args) &lt; 1:
-    #     print ('Usage: python3 ipaanalyze.py /path/to/ipa')
-
-    # ipa_path = args[0]
-    # analyze_ipa_with_plistlib(ipa_path)
-
-    # find_plist_path(ipa_path)
