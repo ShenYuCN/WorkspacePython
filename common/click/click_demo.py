@@ -1,13 +1,22 @@
-importclick
+import click
+
+
 
 @click.command()
-@click.option('--count',default=1,help='Numberofgreetings.')
-@click.option('--name',prompt='Yourname',
-help='Thepersontogreet.')
-defhello(count,name):
-"""SimpleprogramthatgreetsNAMEforatotalofCOUNTtimes."""
-forxinrange(count):
-click.echo('Hello%s!'%name)
+@click.option('-n', '--name', prompt='Your Name', default = 'Tom', help='The person to greet')
 
-if__name__=='__main__':
-hello()
+# @click.command()
+@click.option('--count', prompt = 'count',type = int,default = 3,help='Number of greetings.')
+
+# @click.option('--count', prompt = 'count', default=1, help='Number of greetings.')
+# @click.option('--name', prompt='Your name', help='The person to greet.')
+def hello(count, name):
+    """Simple program that greets NAME for a total of COUNT times."""
+    for x in range(count):
+        click.echo('Hello %s!' % name)
+
+if __name__ == '__main__':
+    hello()
+
+
+

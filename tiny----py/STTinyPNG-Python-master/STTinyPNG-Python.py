@@ -21,3 +21,5 @@ for root, dirs, files in os.walk(fromFilePath):
 			with open(toFullName, 'rb') as source:
 			    source_data = source.read()
 			    result_data = tinify.from_buffer(source_data).to_buffer()
+
+			    
