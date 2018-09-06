@@ -1,0 +1,4 @@
+Pods/THShareOrderModule/JD_vendored_libs/THShareOrderModule_1.2.43/Release/THShareOrderModule.framework/Versions/A/Resources/Assets/serviceComment_pop_arrow@2x.png
+Pods/THShopModule/JD_vendored_libs/THShopModule_2.4.47/Release/THShopModule.framework/Versions/A/Resources/Assets/Shop_new.xcassets/securityBg.imageset
+Pods/THUIUserManagerModule/JD_vendored_libs/THUIUserManagerModule_1.8.0/Release/THUIUserManagerModule.framework/Versions/A/Resources/Assets/THUIUserManagerModuleAssets.xcassets/FaceRecognition/faceLoginSettingImage.imageset
+Pods/THShopModule/JD_vendored_libs/THShopModule_2.4.47/Release/THShopModule.framework/Versions/A/Resources/Assets/Shop_new_image_4_1.xcassets/jshop_scratch_bg.imageset
