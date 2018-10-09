@@ -1,0 +1,3565 @@
+{
+  "cate_infos": {
+    "cid1": [
+      {
+        "id": 85,
+        "name": "手机&平板",
+        "name_en": "Mobiles & Tablets",
+        "name_th": "โทรศัพท์มือถือและแท็บเล็ต",
+        "cat_type": 1,
+        "parent_id": 0,
+        "sort": 0
+      },
+      {
+        "id": 113,
+        "name": "电脑和办公室",
+        "name_en": "Computers & Office",
+        "name_th": "คอมพิวเตอร์และเครื่องใช้สำนักงาน",
+        "cat_type": 1,
+        "parent_id": 0,
+        "sort": 1
+      },
+      {
+        "id": 112,
+        "name": "消费类电子产品",
+        "name_en": "Consumer Electronics",
+        "name_th": "อุปกรณ์อิเล็กทรอนิกส์",
+        "cat_type": 1,
+        "parent_id": 0,
+        "sort": 2
+      },
+      {
+        "id": 1000123,
+        "name": "食品与饮料",
+        "name_en": "Food & Beverage",
+        "name_th": "อาหารและเครื่องดื่ม",
+        "cat_type": 1,
+        "parent_id": 0,
+        "sort": 3
+      },
+      {
+        "id": 1000065,
+        "name": "妈妈婴儿和儿童",
+        "name_en": "Mom, Baby & Kids",
+        "name_th": "แม่และเด็ก",
+        "cat_type": 1,
+        "parent_id": 0,
+        "sort": 4
+      },
+      {
+        "id": 109,
+        "name": "健康与美容",
+        "name_en": "Health & Beauty",
+        "name_th": "สุขภาพและความงาม",
+        "cat_type": 1,
+        "parent_id": 0,
+        "sort": 5
+      },
+      {
+        "id": 1001423,
+        "name": "女士时尚",
+        "name_en": "Women's Fashion",
+        "name_th": "แฟชั่นผู้หญิง",
+        "cat_type": 1,
+        "parent_id": 0,
+        "sort": 6
+      },
+      {
+        "id": 1001424,
+        "name": "男士时尚",
+        "name_en": "Men's Fashion",
+        "name_th": "แฟชั่นผู้ชาย",
+        "cat_type": 1,
+        "parent_id": 0,
+        "sort": 7
+      },
+      {
+        "id": 1001425,
+        "name": "运动 户外 旅行",
+        "name_en": "Sports, Outdoor & Travel",
+        "name_th": "กีฬา กิจกรรมกลางแจ้ง และการท่องเที่ยว",
+        "cat_type": 1,
+        "parent_id": 0,
+        "sort": 8
+      },
+      {
+        "id": 1000866,
+        "name": "家电",
+        "name_en": "Home Appliances",
+        "name_th": "เครื่องใช้ไฟฟ้าภายในบ้าน",
+        "cat_type": 1,
+        "parent_id": 0,
+        "sort": 9
+      },
+      {
+        "id": 1001284,
+        "name": "宠物清洁",
+        "name_en": "Cleaning & Pets",
+        "name_th": "อุปกรณ์ทำความสะอาดและสัตว์เลี้ยง",
+        "cat_type": 1,
+        "parent_id": 0,
+        "sort": 16
+      },
+      {
+        "id": 1001409,
+        "name": "娱乐",
+        "name_en": "Media & Entertainment",
+        "name_th": "สื่อและบันเทิง",
+        "cat_type": 1,
+        "parent_id": 0,
+        "sort": 18
+      },
+      {
+        "id": 1001356,
+        "name": "居家生活",
+        "name_en": "Home & Living",
+        "name_th": "บ้านและของใช้ในบ้าน",
+        "cat_type": 1,
+        "parent_id": 0,
+        "sort": 22
+      },
+      {
+        "id": 1001398,
+        "name": "汽车用品",
+        "name_en": "Automotive",
+        "name_th": "ยานยนต์",
+        "cat_type": 1,
+        "parent_id": 0,
+        "sort": 23
+      }
+    ],
+    "cid2": [
+      {
+        "id": 86,
+        "name": "手机",
+        "name_en": "Mobiles",
+        "name_th": "โทรศัพท์มือถือ",
+        "cat_type": 2,
+        "parent_id": 85,
+        "sort": 0
+      },
+      {
+        "id": 1001152,
+        "name": "电脑&笔记本",
+        "name_en": "Computers & Laptops",
+        "name_th": "คอมพิวเตอร์และโน้ตบุ๊ค",
+        "cat_type": 2,
+        "parent_id": 113,
+        "sort": 0
+      },
+      {
+        "id": 1001285,
+        "name": "家用清洁剂",
+        "name_en": "Household Cleaners",
+        "name_th": "ผลิตภัณฑ์ทำความสะอาดบ้าน",
+        "cat_type": 2,
+        "parent_id": 1001284,
+        "sort": 0
+      },
+      {
+        "id": 1001426,
+        "name": "衣物",
+        "name_en": "Clothings",
+        "name_th": "เสื้อผ้า",
+        "cat_type": 2,
+        "parent_id": 1001423,
+        "sort": 0
+      },
+      {
+        "id": 1001495,
+        "name": "衣物",
+        "name_en": "Clothings",
+        "name_th": "เสื้อผ้า",
+        "cat_type": 2,
+        "parent_id": 1001424,
+        "sort": 0
+      },
+      {
+        "id": 1001410,
+        "name": "图书",
+        "name_en": "Books",
+        "name_th": "หนังสือ",
+        "cat_type": 2,
+        "parent_id": 1001409,
+        "sort": 0
+      },
+      {
+        "id": 1001359,
+        "name": "浴室&床上用品",
+        "name_en": "Bath & Bedding",
+        "name_th": "ห้องน้ำและห้องนอน",
+        "cat_type": 2,
+        "parent_id": 1001356,
+        "sort": 0
+      },
+      {
+        "id": 1000219,
+        "name": "皮肤护理",
+        "name_en": "Skin Care",
+        "name_th": "ผลิตภัณฑ์ดูแลผิว",
+        "cat_type": 2,
+        "parent_id": 109,
+        "sort": 0
+      },
+      {
+        "id": 1000080,
+        "name": "婴儿尿布",
+        "name_en": "Baby Diapers",
+        "name_th": "ผ้าอ้อมเด็ก",
+        "cat_type": 2,
+        "parent_id": 1000065,
+        "sort": 0
+      },
+      {
+        "id": 1000867,
+        "name": "电视",
+        "name_en": "Televisions",
+        "name_th": "ทีวี",
+        "cat_type": 2,
+        "parent_id": 1000866,
+        "sort": 0
+      },
+      {
+        "id": 1000125,
+        "name": "饼干",
+        "name_en": "Biscuits & Crackers",
+        "name_th": "บิสกิต และขนมปังกรอบ",
+        "cat_type": 2,
+        "parent_id": 1000123,
+        "sort": 0
+      },
+      {
+        "id": 1001637,
+        "name": "男士服装和鞋类",
+        "name_en": "Men's Clothing & Shoes",
+        "name_th": "เสื้อผ้าและรองเท้าผู้ชาย",
+        "cat_type": 2,
+        "parent_id": 1001425,
+        "sort": 0
+      },
+      {
+        "id": 1000124,
+        "name": "饮料",
+        "name_en": "Beverages",
+        "name_th": "เครื่องดื่ม",
+        "cat_type": 2,
+        "parent_id": 1000123,
+        "sort": 1
+      },
+      {
+        "id": 1000212,
+        "name": "头发护理",
+        "name_en": "Hair Care",
+        "name_th": "ผลิตภัณฑ์ดูแลเส้นผม",
+        "cat_type": 2,
+        "parent_id": 109,
+        "sort": 1
+      },
+      {
+        "id": 1001147,
+        "name": "电脑组件",
+        "name_en": "Computer Components",
+        "name_th": "อุปกรณ์คอมพิวเตอร์",
+        "cat_type": 2,
+        "parent_id": 113,
+        "sort": 1
+      },
+      {
+        "id": 1001286,
+        "name": "纸制品",
+        "name_en": "Paper Product",
+        "name_th": "กระดาษ",
+        "cat_type": 2,
+        "parent_id": 1001284,
+        "sort": 1
+      },
+      {
+        "id": 1001360,
+        "name": "家具&存储",
+        "name_en": "Furniture & Storage",
+        "name_th": "เฟอร์นิเจอร์และอุปกรณ์เก็บของ",
+        "cat_type": 2,
+        "parent_id": 1001356,
+        "sort": 1
+      },
+      {
+        "id": 1001493,
+        "name": "鞋",
+        "name_en": "Shoes",
+        "name_th": "รองเท้า",
+        "cat_type": 2,
+        "parent_id": 1001424,
+        "sort": 1
+      },
+      {
+        "id": 1001926,
+        "name": "厨房里的小电器",
+        "name_en": "Small Kitchen Appliances",
+        "name_th": "อุปกรณ์ไฟฟ้าขนาดเล็กในห้องครัว",
+        "cat_type": 2,
+        "parent_id": 1000866,
+        "sort": 1
+      },
+      {
+        "id": 1000100,
+        "name": "牛奶和配方",
+        "name_en": "Milk & Formula",
+        "name_th": "ผลิตภัณฑ์นม",
+        "cat_type": 2,
+        "parent_id": 1000065,
+        "sort": 1
+      },
+      {
+        "id": 87,
+        "name": "平板",
+        "name_en": "Tablets",
+        "name_th": "แท็บเล็ต",
+        "cat_type": 2,
+        "parent_id": 85,
+        "sort": 1
+      },
+      {
+        "id": 1001431,
+        "name": "饰品",
+        "name_en": "Accessories",
+        "name_th": "เครื่องตกแต่ง",
+        "cat_type": 2,
+        "parent_id": 1001423,
+        "sort": 1
+      },
+      {
+        "id": 1001635,
+        "name": "女士服装和鞋子",
+        "name_en": "Women's Clothing & Shoes",
+        "name_th": "เสื้อผ้าและรองเท้าผู้หญิง",
+        "cat_type": 2,
+        "parent_id": 1001425,
+        "sort": 1
+      },
+      {
+        "id": 1000105,
+        "name": "玩具",
+        "name_en": "Toys",
+        "name_th": "ของเล่นสำหรับเด็ก",
+        "cat_type": 2,
+        "parent_id": 1000065,
+        "sort": 2
+      },
+      {
+        "id": 1000207,
+        "name": "洗浴",
+        "name_en": "Bath & Body",
+        "name_th": "ผลิตภัณฑ์อาบน้ำและดูแลผิวกาย",
+        "cat_type": 2,
+        "parent_id": 109,
+        "sort": 2
+      },
+      {
+        "id": 1000332,
+        "name": "手机配件",
+        "name_en": "Phone Accessories",
+        "name_th": "อุปกรณ์เสริมโทรศัพท์มือถือ",
+        "cat_type": 2,
+        "parent_id": 85,
+        "sort": 2
+      },
+      {
+        "id": 1001287,
+        "name": "洗衣",
+        "name_en": "Laundry",
+        "name_th": "ซักอบรีด",
+        "cat_type": 2,
+        "parent_id": 1001284,
+        "sort": 2
+      },
+      {
+        "id": 1001432,
+        "name": "包",
+        "name_en": "Bags",
+        "name_th": "กระเป๋า",
+        "cat_type": 2,
+        "parent_id": 1001423,
+        "sort": 2
+      },
+      {
+        "id": 1001918,
+        "name": "家用电器",
+        "name_en": "Household Appliances",
+        "name_th": "เครื่องใช้ไฟฟ้าภายในบ้าน",
+        "cat_type": 2,
+        "parent_id": 1000866,
+        "sort": 2
+      },
+      {
+        "id": 1001642,
+        "name": "骑自行车和其他道路运动",
+        "name_en": "Cycling & Other Road Sports",
+        "name_th": "จักรยานและผจญภัย",
+        "cat_type": 2,
+        "parent_id": 1001425,
+        "sort": 2
+      },
+      {
+        "id": 1001491,
+        "name": "手表",
+        "name_en": "Watches",
+        "name_th": "นาฬิกา",
+        "cat_type": 2,
+        "parent_id": 1001424,
+        "sort": 2
+      },
+      {
+        "id": 1000083,
+        "name": "婴儿喂养",
+        "name_en": "Baby Feeding",
+        "name_th": "อุปกรณ์การกินสำหรับเด็ก",
+        "cat_type": 2,
+        "parent_id": 1000065,
+        "sort": 3
+      },
+      {
+        "id": 1000216,
+        "name": "口腔保健",
+        "name_en": "Oral Care",
+        "name_th": "ผลิตภัณฑ์ดูแลช่องปาก",
+        "cat_type": 2,
+        "parent_id": 109,
+        "sort": 3
+      },
+      {
+        "id": 1001289,
+        "name": "猫",
+        "name_en": "Cat",
+        "name_th": "แมว",
+        "cat_type": 2,
+        "parent_id": 1001284,
+        "sort": 3
+      },
+      {
+        "id": 1001427,
+        "name": "鞋",
+        "name_en": "Shoes",
+        "name_th": "รองเท้า",
+        "cat_type": 2,
+        "parent_id": 1001423,
+        "sort": 3
+      },
+      {
+        "id": 1001366,
+        "name": "家居装饰",
+        "name_en": "Home Decoration",
+        "name_th": "ของแต่งบ้าน",
+        "cat_type": 2,
+        "parent_id": 1001356,
+        "sort": 3
+      },
+      {
+        "id": 1001151,
+        "name": "电脑外设",
+        "name_en": "Computer Peripherals & Accessories",
+        "name_th": "อุปกรณ์เสริมทั่วไป",
+        "cat_type": 2,
+        "parent_id": 113,
+        "sort": 3
+      },
+      {
+        "id": 1001494,
+        "name": "手袋",
+        "name_en": "Bags",
+        "name_th": "กระเป๋า",
+        "cat_type": 2,
+        "parent_id": 1001424,
+        "sort": 3
+      },
+      {
+        "id": 1002165,
+        "name": "个护健康",
+        "name_en": "Personal Care Appliances",
+        "name_th": "เครื่องใช้ไฟฟ้าส่วนบุคคล",
+        "cat_type": 2,
+        "parent_id": 1000866,
+        "sort": 3
+      },
+      {
+        "id": 1001647,
+        "name": "旅行",
+        "name_en": "Travel",
+        "name_th": "กระเป๋า และอุปกรณ์เดินทาง",
+        "cat_type": 2,
+        "parent_id": 1001425,
+        "sort": 3
+      },
+      {
+        "id": 1000214,
+        "name": "化妆",
+        "name_en": "Makeup",
+        "name_th": "เครื่องสำอาง",
+        "cat_type": 2,
+        "parent_id": 109,
+        "sort": 4
+      },
+      {
+        "id": 1000868,
+        "name": "空调",
+        "name_en": "Air Conditioners",
+        "name_th": "เครื่องปรับอากาศ",
+        "cat_type": 2,
+        "parent_id": 1000866,
+        "sort": 4
+      },
+      {
+        "id": 1001643,
+        "name": "足球",
+        "name_en": "Football",
+        "name_th": "ฟุตบอล",
+        "cat_type": 2,
+        "parent_id": 1001425,
+        "sort": 4
+      },
+      {
+        "id": 1001368,
+        "name": "家居装修",
+        "name_en": "Home Improvement",
+        "name_th": "อุปกรณ์งานช่างในบ้าน",
+        "cat_type": 2,
+        "parent_id": 1001356,
+        "sort": 4
+      },
+      {
+        "id": 1001492,
+        "name": "眼镜",
+        "name_en": "Eyewear",
+        "name_th": "แว่นตา",
+        "cat_type": 2,
+        "parent_id": 1001424,
+        "sort": 4
+      },
+      {
+        "id": 1000088,
+        "name": "婴儿食品",
+        "name_en": "Baby Food",
+        "name_th": "อาหารสำหรับเด็ก",
+        "cat_type": 2,
+        "parent_id": 1000065,
+        "sort": 4
+      },
+      {
+        "id": 1001148,
+        "name": "Network",
+        "name_en": "Network",
+        "name_th": "อุปกรณ์เชื่อมต่อเครือข่ายอินเทอร์เน็ต",
+        "cat_type": 2,
+        "parent_id": 113,
+        "sort": 4
+      },
+      {
+        "id": 1001428,
+        "name": "手表",
+        "name_en": "Watches",
+        "name_th": "นาฬิกา",
+        "cat_type": 2,
+        "parent_id": 1001423,
+        "sort": 4
+      },
+      {
+        "id": 1001288,
+        "name": "狗",
+        "name_en": "Dog",
+        "name_th": "สุนัข",
+        "cat_type": 2,
+        "parent_id": 1001284,
+        "sort": 4
+      },
+      {
+        "id": 1000094,
+        "name": "时尚",
+        "name_en": "Fashion",
+        "name_th": "แฟชั่น",
+        "cat_type": 2,
+        "parent_id": 1000065,
+        "sort": 5
+      },
+      {
+        "id": 1000217,
+        "name": "个人卫生",
+        "name_en": "Personal Hygiene",
+        "name_th": "ผลิตภัณฑ์อนามัย",
+        "cat_type": 2,
+        "parent_id": 109,
+        "sort": 5
+      },
+      {
+        "id": 1001365,
+        "name": "家政",
+        "name_en": "Housekeeping",
+        "name_th": "เครื่องมือและอุปกรณ์ทำความสะอาดบ้าน",
+        "cat_type": 2,
+        "parent_id": 1001356,
+        "sort": 5
+      },
+      {
+        "id": 1001429,
+        "name": "眼镜",
+        "name_en": "Eyewear",
+        "name_th": "แว่นตา",
+        "cat_type": 2,
+        "parent_id": 1001423,
+        "sort": 5
+      },
+      {
+        "id": 1001490,
+        "name": "饰品",
+        "name_en": "Accessories",
+        "name_th": "เครื่องตกแต่ง",
+        "cat_type": 2,
+        "parent_id": 1001424,
+        "sort": 5
+      },
+      {
+        "id": 1001641,
+        "name": "运动和健身",
+        "name_en": "Exercise and Fitness",
+        "name_th": "ฟิตเนสและการออกกำลังกาย",
+        "cat_type": 2,
+        "parent_id": 1001425,
+        "sort": 5
+      },
+      {
+        "id": 1000872,
+        "name": "冰箱",
+        "name_en": "Refrigerators",
+        "name_th": "ตู้เย็น",
+        "cat_type": 2,
+        "parent_id": 1000866,
+        "sort": 5
+      },
+      {
+        "id": 1001415,
+        "name": "文具",
+        "name_en": "Stationery",
+        "name_th": "เครื่องเขียน",
+        "cat_type": 2,
+        "parent_id": 1001409,
+        "sort": 6
+      },
+      {
+        "id": 1000114,
+        "name": "婴儿用品",
+        "name_en": "Baby Gear",
+        "name_th": "อุปกรณ์สำหรับเด็ก",
+        "cat_type": 2,
+        "parent_id": 1000065,
+        "sort": 6
+      },
+      {
+        "id": 1001430,
+        "name": "首饰",
+        "name_en": "Jewellery",
+        "name_th": "เครื่องประดับ",
+        "cat_type": 2,
+        "parent_id": 1001423,
+        "sort": 6
+      },
+      {
+        "id": 1001361,
+        "name": "厨房&餐厅",
+        "name_en": "Kitchen & Dining",
+        "name_th": "ห้องครัวและห้องอาหาร",
+        "cat_type": 2,
+        "parent_id": 1001356,
+        "sort": 6
+      },
+      {
+        "id": 1001634,
+        "name": "运动和户外用品",
+        "name_en": "Sports & Outdoor Accessories",
+        "name_th": "อุปกรณ์กีฬาและกิจกรรมกลางแจ้ง",
+        "cat_type": 2,
+        "parent_id": 1001425,
+        "sort": 7
+      },
+      {
+        "id": 1000871,
+        "name": "洗衣和烘干机",
+        "name_en": "Washers & Dryers",
+        "name_th": "เครื่องซักผ้าและเครื่องอบแห้ง",
+        "cat_type": 2,
+        "parent_id": 1000866,
+        "sort": 7
+      },
+      {
+        "id": 1001414,
+        "name": "乐器",
+        "name_en": "Musical Instrument",
+        "name_th": "เครื่องดนตรี",
+        "cat_type": 2,
+        "parent_id": 1001409,
+        "sort": 7
+      },
+      {
+        "id": 1000220,
+        "name": "补充剂&运动营养",
+        "name_en": "Sports Nutrition",
+        "name_th": "อาหารเสริมสำหรับนักกีฬา",
+        "cat_type": 2,
+        "parent_id": 109,
+        "sort": 8
+      },
+      {
+        "id": 1000066,
+        "name": "婴儿护理",
+        "name_en": "Baby Care",
+        "name_th": "ผลิตภัณฑ์ทำความสะอาดสำหรับเด็ก",
+        "cat_type": 2,
+        "parent_id": 1000065,
+        "sort": 9
+      },
+      {
+        "id": 1001646,
+        "name": "运动器材及配件",
+        "name_en": "Sports Equipments & Accessories",
+        "name_th": "อุปกรณ์กีฬา",
+        "cat_type": 2,
+        "parent_id": 1001425,
+        "sort": 10
+      },
+      {
+        "id": 1001902,
+        "name": "灯泡",
+        "name_en": "Lighting",
+        "name_th": "โคมไฟ",
+        "cat_type": 2,
+        "parent_id": 1001356,
+        "sort": 14
+      },
+      {
+        "id": 1001837,
+        "name": "汽车和别的设备",
+        "name_en": "Automotive Parts & Accessories",
+        "name_th": "ยานยนต์และอุปกรณ์เสริม",
+        "cat_type": 2,
+        "parent_id": 1001398,
+        "sort": 14
+      },
+      {
+        "id": 1001204,
+        "name": "相机&照片",
+        "name_en": "Camera & Photo",
+        "name_th": "กล้องและรูปถ่าย",
+        "cat_type": 2,
+        "parent_id": 112,
+        "sort": 15
+      },
+      {
+        "id": 1001205,
+        "name": "音频,视频&娱乐",
+        "name_en": "Audio,Video & Entertainment",
+        "name_th": "เครื่องเล่นเสียงและวีดีโอ",
+        "cat_type": 2,
+        "parent_id": 112,
+        "sort": 15
+      },
+      {
+        "id": 1001207,
+        "name": "汽车电器",
+        "name_en": "Car Electronics",
+        "name_th": "อุปกรณ์อิเล็กทรอนิกส์ในรถยนต์",
+        "cat_type": 2,
+        "parent_id": 112,
+        "sort": 15
+      },
+      {
+        "id": 1001206,
+        "name": "智能电子",
+        "name_en": "Smart Electronics",
+        "name_th": "เครื่องใช้อิเล็กทรอนิกส์ระบบอัจฉริยะ",
+        "cat_type": 2,
+        "parent_id": 112,
+        "sort": 15
+      },
+      {
+        "id": 1001208,
+        "name": "数码配件",
+        "name_en": "Digital Accessories",
+        "name_th": "อุปกรณ์เสริมอื่นๆ",
+        "cat_type": 2,
+        "parent_id": 112,
+        "sort": 15
+      },
+      {
+        "id": 1000132,
+        "name": "小吃",
+        "name_en": "Snacks",
+        "name_th": "ขนมขบเคี้ยว",
+        "cat_type": 2,
+        "parent_id": 1000123,
+        "sort": 16
+      },
+      {
+        "id": 1000126,
+        "name": "巧克力和糖果",
+        "name_en": "Chocolate & Confectionery",
+        "name_th": "ช็อกโกแลต ลูกอม และ หมากฝรั่ง",
+        "cat_type": 2,
+        "parent_id": 1000123,
+        "sort": 16
+      },
+      {
+        "id": 1000127,
+        "name": "烹饪",
+        "name_en": "Cooking",
+        "name_th": "ผลิตภัณฑ์ปรุงอาหาร",
+        "cat_type": 2,
+        "parent_id": 1000123,
+        "sort": 16
+      },
+      {
+        "id": 1000129,
+        "name": "健康与营养",
+        "name_en": "Health & Nutrition",
+        "name_th": "สุขภาพและอาหารเสริม",
+        "cat_type": 2,
+        "parent_id": 1000123,
+        "sort": 16
+      },
+      {
+        "id": 1000130,
+        "name": "Liquor",
+        "name_en": "Liquor",
+        "name_th": "เครื่องดื่มแอลกอฮอล์",
+        "cat_type": 2,
+        "parent_id": 1000123,
+        "sort": 16
+      },
+      {
+        "id": 1000131,
+        "name": "牛奶",
+        "name_en": "Milk",
+        "name_th": "นม",
+        "cat_type": 2,
+        "parent_id": 1000123,
+        "sort": 16
+      }
+    ],
+    "cid3": [
+      {
+        "id": 1000068,
+        "name": "婴儿护肤",
+        "name_en": "Baby Skin Care",
+        "name_th": "ผลิตภัณฑ์ดูแลผิวเด็ก",
+        "cat_type": 3,
+        "parent_id": 1000066,
+        "sort": 0
+      },
+      {
+        "id": 1000084,
+        "name": "吸乳器",
+        "name_en": "Breast Pump",
+        "name_th": "อุปกรณ์ปั๊มนม",
+        "cat_type": 3,
+        "parent_id": 1000083,
+        "sort": 0
+      },
+      {
+        "id": 1000095,
+        "name": "儿童服饰",
+        "name_en": "Baby Wear",
+        "name_th": "เสื้อผ้าสำหรับทารก",
+        "cat_type": 3,
+        "parent_id": 1000094,
+        "sort": 0
+      },
+      {
+        "id": 1000106,
+        "name": "棋盘游戏",
+        "name_en": "Board Games",
+        "name_th": "เกมกระดาน",
+        "cat_type": 3,
+        "parent_id": 1000105,
+        "sort": 0
+      },
+      {
+        "id": 1000136,
+        "name": "粉末饮料混合物",
+        "name_en": "Powdered Drink Mixes",
+        "name_th": "เครื่องดื่มสำเร็จรูปชนิดผง",
+        "cat_type": 3,
+        "parent_id": 1000124,
+        "sort": 0
+      },
+      {
+        "id": 1000179,
+        "name": "薯片",
+        "name_en": "Chips",
+        "name_th": "มันฝรั่งทอดกรอบ",
+        "cat_type": 3,
+        "parent_id": 1000132,
+        "sort": 0
+      },
+      {
+        "id": 1000222,
+        "name": "沐浴露",
+        "name_en": "Body Wash",
+        "name_th": "ผลิตภัณฑ์ทำความสะอาดผิวกาย",
+        "cat_type": 3,
+        "parent_id": 1000207,
+        "sort": 0
+      },
+      {
+        "id": 1000234,
+        "name": "洗发水",
+        "name_en": "Shampoo",
+        "name_th": "ยาสระผม",
+        "cat_type": 3,
+        "parent_id": 1000212,
+        "sort": 0
+      },
+      {
+        "id": 1000244,
+        "name": "面部",
+        "name_en": "Face",
+        "name_th": "ใบหน้า",
+        "cat_type": 3,
+        "parent_id": 1000214,
+        "sort": 0
+      },
+      {
+        "id": 1000257,
+        "name": "牙膏",
+        "name_en": "Toothpaste",
+        "name_th": "ยาสีฟัน",
+        "cat_type": 3,
+        "parent_id": 1000216,
+        "sort": 0
+      },
+      {
+        "id": 1000259,
+        "name": "女性湿巾",
+        "name_en": "Feminine Sanitary Napkins",
+        "name_th": "ผ้าอนามัย",
+        "cat_type": 3,
+        "parent_id": 1000217,
+        "sort": 0
+      },
+      {
+        "id": 1000276,
+        "name": "蛋白质",
+        "name_en": "Protein",
+        "name_th": "โปรตีน",
+        "cat_type": 3,
+        "parent_id": 1000220,
+        "sort": 0
+      },
+      {
+        "id": 1000327,
+        "name": "手机",
+        "name_en": "Mobile Phones",
+        "name_th": "โทรศัพท์มือถือ",
+        "cat_type": 3,
+        "parent_id": 86,
+        "sort": 0
+      },
+      {
+        "id": 1000334,
+        "name": "充电宝",
+        "name_en": "Power Banks",
+        "name_th": "แบตเตอรี่สำรอง",
+        "cat_type": 3,
+        "parent_id": 1000332,
+        "sort": 0
+      },
+      {
+        "id": 1000880,
+        "name": "墙壁",
+        "name_en": "Wall Type",
+        "name_th": "ชนิดติดผนัง",
+        "cat_type": 3,
+        "parent_id": 1000868,
+        "sort": 0
+      },
+      {
+        "id": 1001153,
+        "name": "显示器",
+        "name_en": "Monitors",
+        "name_th": "หน้าจอ",
+        "cat_type": 3,
+        "parent_id": 1001147,
+        "sort": 0
+      },
+      {
+        "id": 1001211,
+        "name": "反光镜",
+        "name_en": "Mirrorless",
+        "name_th": "กล้องมิเรอร์เลส",
+        "cat_type": 3,
+        "parent_id": 1001204,
+        "sort": 0
+      },
+      {
+        "id": 1001246,
+        "name": "笔记本电脑",
+        "name_en": "Laptops",
+        "name_th": "โน้ตบุ๊ค",
+        "cat_type": 3,
+        "parent_id": 1001152,
+        "sort": 0
+      },
+      {
+        "id": 1001295,
+        "name": "浴室清洁",
+        "name_en": "Bathroom Cleaners",
+        "name_th": "ทำความสะอาดห้องน้ำ",
+        "cat_type": 3,
+        "parent_id": 1001285,
+        "sort": 0
+      },
+      {
+        "id": 1001306,
+        "name": "面巾",
+        "name_en": "Facial / Box Tissue",
+        "name_th": "กระดาษเช็ดหน้า/แบบกล่อง",
+        "cat_type": 3,
+        "parent_id": 1001286,
+        "sort": 0
+      },
+      {
+        "id": 1001310,
+        "name": "液体/温和洗涤剂",
+        "name_en": "Liquid /Mild Detergent",
+        "name_th": "น้ำยาซักผ้า",
+        "cat_type": 3,
+        "parent_id": 1001287,
+        "sort": 0
+      },
+      {
+        "id": 1001326,
+        "name": "猫粮",
+        "name_en": "Cat Food",
+        "name_th": "อาหารแมว",
+        "cat_type": 3,
+        "parent_id": 1001289,
+        "sort": 0
+      },
+      {
+        "id": 1001371,
+        "name": "卧室家具",
+        "name_en": "Bedroom Furniture",
+        "name_th": "เฟอร์นิเจอร์ในห้องนอน",
+        "cat_type": 3,
+        "parent_id": 1001360,
+        "sort": 0
+      },
+      {
+        "id": 1001433,
+        "name": "礼服",
+        "name_en": "Dresses",
+        "name_th": "ชุดเดรส",
+        "cat_type": 3,
+        "parent_id": 1001426,
+        "sort": 0
+      },
+      {
+        "id": 1001458,
+        "name": "高跟鞋",
+        "name_en": "Heels",
+        "name_th": "รองเท้าส้นสูง",
+        "cat_type": 3,
+        "parent_id": 1001427,
+        "sort": 0
+      },
+      {
+        "id": 1001497,
+        "name": "牛仔",
+        "name_en": "Jeans",
+        "name_th": "ยีนส์",
+        "cat_type": 3,
+        "parent_id": 1001495,
+        "sort": 0
+      },
+      {
+        "id": 1001521,
+        "name": "球鞋",
+        "name_en": "Sneakers",
+        "name_th": "รองเท้าผ้าใบ",
+        "cat_type": 3,
+        "parent_id": 1001493,
+        "sort": 0
+      },
+      {
+        "id": 1001530,
+        "name": "艺术与摄影",
+        "name_en": "Arts & Photography",
+        "name_th": "ศิลปะและการถ่ายภาพ",
+        "cat_type": 3,
+        "parent_id": 1001410,
+        "sort": 0
+      },
+      {
+        "id": 1001648,
+        "name": "背包和手袋",
+        "name_en": "Backpacks & Bags",
+        "name_th": "กระเป๋า และกระเป๋าเป้สะพายหลัง",
+        "cat_type": 3,
+        "parent_id": 1001634,
+        "sort": 0
+      },
+      {
+        "id": 1001784,
+        "name": "男士服饰和鞋",
+        "name_en": "Men's Clothing & Shoes",
+        "name_th": "เสื้อผ้าและรองเท้าผู้ชาย",
+        "cat_type": 3,
+        "parent_id": 1001643,
+        "sort": 0
+      },
+      {
+        "id": 1001799,
+        "name": "包袋",
+        "name_en": "Fashion Bags",
+        "name_th": "กระเป๋าแฟชั่น",
+        "cat_type": 3,
+        "parent_id": 1001432,
+        "sort": 0
+      },
+      {
+        "id": 1001816,
+        "name": "电子设备",
+        "name_en": "Power Tools",
+        "name_th": "เครื่องมือไฟฟ้า",
+        "cat_type": 3,
+        "parent_id": 1001368,
+        "sort": 0
+      },
+      {
+        "id": 1001868,
+        "name": "床单",
+        "name_en": "Bedding Sheet",
+        "name_th": "ผ้าปูที่นอน",
+        "cat_type": 3,
+        "parent_id": 1001359,
+        "sort": 0
+      },
+      {
+        "id": 1001882,
+        "name": "钟",
+        "name_en": "Clocks",
+        "name_th": "นาฬิกา",
+        "cat_type": 3,
+        "parent_id": 1001366,
+        "sort": 0
+      },
+      {
+        "id": 1001893,
+        "name": "垃圾桶",
+        "name_en": "Garbage & Recycling Bins",
+        "name_th": "ถังขยะและถังรีไซเคิล",
+        "cat_type": 3,
+        "parent_id": 1001365,
+        "sort": 0
+      },
+      {
+        "id": 1001921,
+        "name": "风扇 ",
+        "name_en": "Air Coolers",
+        "name_th": "พัดลมไอเย็น",
+        "cat_type": 3,
+        "parent_id": 1001918,
+        "sort": 0
+      },
+      {
+        "id": 1001927,
+        "name": "搅拌机",
+        "name_en": "Blender / Juice Extractor",
+        "name_th": "เครื่องปั่นและเครื่องคั้นน้ำผลไม้แยกกาก",
+        "cat_type": 3,
+        "parent_id": 1001926,
+        "sort": 0
+      },
+      {
+        "id": 1001969,
+        "name": "书写工具",
+        "name_en": "Writing Instruments",
+        "name_th": "เครื่องมือการเขียน",
+        "cat_type": 3,
+        "parent_id": 1001415,
+        "sort": 0
+      },
+      {
+        "id": 1002040,
+        "name": "墨镜",
+        "name_en": "Sunglasses",
+        "name_th": "แว่นกันแดด",
+        "cat_type": 3,
+        "parent_id": 1001429,
+        "sort": 0
+      },
+      {
+        "id": 1002042,
+        "name": "墨镜",
+        "name_en": "Sunglasses",
+        "name_th": "แว่นกันแดด",
+        "cat_type": 3,
+        "parent_id": 1001492,
+        "sort": 0
+      },
+      {
+        "id": 1000076,
+        "name": "婴儿洗涤和清洁",
+        "name_en": "Baby Cleaning",
+        "name_th": "ผลิตภัณฑ์ทำความสะอาด",
+        "cat_type": 3,
+        "parent_id": 1000066,
+        "sort": 1
+      },
+      {
+        "id": 1000101,
+        "name": "婴儿配方奶粉",
+        "name_en": "Baby Formula",
+        "name_th": "นมสำหรับทารกและเด็กเล็ก",
+        "cat_type": 3,
+        "parent_id": 1000100,
+        "sort": 1
+      },
+      {
+        "id": 1000107,
+        "name": "建筑玩具",
+        "name_en": "Building Toys",
+        "name_th": "ของเล่นตัวต่อ",
+        "cat_type": 3,
+        "parent_id": 1000105,
+        "sort": 1
+      },
+      {
+        "id": 1000118,
+        "name": "汽车座椅运营商",
+        "name_en": "Car Seats",
+        "name_th": "คาร์ซีท",
+        "cat_type": 3,
+        "parent_id": 1000114,
+        "sort": 1
+      },
+      {
+        "id": 1000180,
+        "name": "水果干",
+        "name_en": "Dried Fruits",
+        "name_th": "ผลไม้แห้ง",
+        "cat_type": 3,
+        "parent_id": 1000132,
+        "sort": 1
+      },
+      {
+        "id": 1000221,
+        "name": "身体护理",
+        "name_en": "Body Care",
+        "name_th": "ดูแลร่างกาย",
+        "cat_type": 3,
+        "parent_id": 1000207,
+        "sort": 1
+      },
+      {
+        "id": 1000231,
+        "name": "护发素",
+        "name_en": "Conditioner",
+        "name_th": "ครีมนวดผม",
+        "cat_type": 3,
+        "parent_id": 1000212,
+        "sort": 1
+      },
+      {
+        "id": 1000243,
+        "name": "眼镜&眉毛",
+        "name_en": "Eye & Brow",
+        "name_th": "ดวงตาและคิ้ว",
+        "cat_type": 3,
+        "parent_id": 1000214,
+        "sort": 1
+      },
+      {
+        "id": 1000256,
+        "name": "牙刷",
+        "name_en": "Toothbrush",
+        "name_th": "แปรงสีฟัน",
+        "cat_type": 3,
+        "parent_id": 1000216,
+        "sort": 1
+      },
+      {
+        "id": 1000258,
+        "name": "成人卫生",
+        "name_en": "Adult Hygiene",
+        "name_th": "สุขอนามัยสำหรับผู้ใหญ่",
+        "cat_type": 3,
+        "parent_id": 1000217,
+        "sort": 1
+      },
+      {
+        "id": 1000265,
+        "name": "洁面乳",
+        "name_en": "Facial Cleanser",
+        "name_th": "ทำความสะอาดผิวหน้า",
+        "cat_type": 3,
+        "parent_id": 1000219,
+        "sort": 1
+      },
+      {
+        "id": 1000340,
+        "name": "手机壳",
+        "name_en": "Phone Cases",
+        "name_th": "เคสโทรศัพท์",
+        "cat_type": 3,
+        "parent_id": 1000332,
+        "sort": 1
+      },
+      {
+        "id": 1000881,
+        "name": "地板",
+        "name_en": "Floor Type",
+        "name_th": "ชนิดตั้งพื้น",
+        "cat_type": 3,
+        "parent_id": 1000868,
+        "sort": 1
+      },
+      {
+        "id": 1001203,
+        "name": "台式机",
+        "name_en": "Desktop Computers",
+        "name_th": "คอมพิวเตอร์ตั้งโต๊ะ",
+        "cat_type": 3,
+        "parent_id": 1001152,
+        "sort": 1
+      },
+      {
+        "id": 1001210,
+        "name": "DSLR",
+        "name_en": "DSLR",
+        "name_th": "กล้องดิจิตอล DSLR",
+        "cat_type": 3,
+        "parent_id": 1001204,
+        "sort": 1
+      },
+      {
+        "id": 1001303,
+        "name": "卫生纸",
+        "name_en": "Toilet Tissue",
+        "name_th": "กระดาษชำระสำหรับใช้ในห้องน้ำ",
+        "cat_type": 3,
+        "parent_id": 1001286,
+        "sort": 1
+      },
+      {
+        "id": 1001308,
+        "name": "洗衣粉",
+        "name_en": "Powder Detergent",
+        "name_th": "ผงซักฟอก",
+        "cat_type": 3,
+        "parent_id": 1001287,
+        "sort": 1
+      },
+      {
+        "id": 1001439,
+        "name": "连衫裤和连身衣",
+        "name_en": "Playsuits & Jumpsuits",
+        "name_th": "เพลย์สูท และจั๊มสูท",
+        "cat_type": 3,
+        "parent_id": 1001426,
+        "sort": 1
+      },
+      {
+        "id": 1001460,
+        "name": "坡跟鞋",
+        "name_en": "Wedges",
+        "name_th": "รองเท้าส้นเตารีด",
+        "cat_type": 3,
+        "parent_id": 1001427,
+        "sort": 1
+      },
+      {
+        "id": 1001472,
+        "name": "钱包",
+        "name_en": "Wallets",
+        "name_th": "กระเป๋าสตางค์",
+        "cat_type": 3,
+        "parent_id": 1001432,
+        "sort": 1
+      },
+      {
+        "id": 1001484,
+        "name": "吊坠",
+        "name_en": "Pendants",
+        "name_th": "จี้สร้อยคอ",
+        "cat_type": 3,
+        "parent_id": 1001430,
+        "sort": 1
+      },
+      {
+        "id": 1001496,
+        "name": "帽子",
+        "name_en": "Hats & Caps",
+        "name_th": "หมวก",
+        "cat_type": 3,
+        "parent_id": 1001490,
+        "sort": 1
+      },
+      {
+        "id": 1001502,
+        "name": "夹克&外套",
+        "name_en": "Jackets & Coats",
+        "name_th": "แจ็กเกต/โค้ท",
+        "cat_type": 3,
+        "parent_id": 1001495,
+        "sort": 1
+      },
+      {
+        "id": 1001630,
+        "name": "厨房清洁剂",
+        "name_en": "Kitchen Cleaners",
+        "name_th": "อุปกรณ์ทำความสะอาดครัว",
+        "cat_type": 3,
+        "parent_id": 1001285,
+        "sort": 1
+      },
+      {
+        "id": 1001811,
+        "name": "手具",
+        "name_en": "Hand Tools",
+        "name_th": "เครื่องมือช่าง",
+        "cat_type": 3,
+        "parent_id": 1001368,
+        "sort": 1
+      },
+      {
+        "id": 1001869,
+        "name": "枕头和抱枕",
+        "name_en": "Pillows & Bolster",
+        "name_th": "หมอนหนุนและหมอนข้าง",
+        "cat_type": 3,
+        "parent_id": 1001359,
+        "sort": 1
+      },
+      {
+        "id": 1001883,
+        "name": "相框",
+        "name_en": "Frame",
+        "name_th": "กรอบรูป",
+        "cat_type": 3,
+        "parent_id": 1001366,
+        "sort": 1
+      },
+      {
+        "id": 1001924,
+        "name": "电扇",
+        "name_en": "Fan",
+        "name_th": "พัดลม",
+        "cat_type": 3,
+        "parent_id": 1001918,
+        "sort": 1
+      },
+      {
+        "id": 1001933,
+        "name": "微波炉/烤箱",
+        "name_en": "Microwave / Oven",
+        "name_th": "เตาไมโครเวฟและเตาอบ",
+        "cat_type": 3,
+        "parent_id": 1001926,
+        "sort": 1
+      },
+      {
+        "id": 1002041,
+        "name": "Eyeglasses",
+        "name_en": "Eyeglasses",
+        "name_th": "แว่นสายตา",
+        "cat_type": 3,
+        "parent_id": 1001429,
+        "sort": 1
+      },
+      {
+        "id": 1002043,
+        "name": "眼睛",
+        "name_en": "Eyeglasses",
+        "name_th": "แว่นสายตา",
+        "cat_type": 3,
+        "parent_id": 1001492,
+        "sort": 1
+      },
+      {
+        "id": 1002067,
+        "name": "浴室家具",
+        "name_en": "Bathroom Furniture",
+        "name_th": "เฟอร์นิเจอร์ห้องน้ำ",
+        "cat_type": 3,
+        "parent_id": 1001360,
+        "sort": 1
+      },
+      {
+        "id": 1000067,
+        "name": "婴儿湿巾",
+        "name_en": "Baby Wipes",
+        "name_th": "ทิชชู่เปียกสำหรับเด็ก",
+        "cat_type": 3,
+        "parent_id": 1000066,
+        "sort": 2
+      },
+      {
+        "id": 1000122,
+        "name": "推车",
+        "name_en": "Strollers",
+        "name_th": "รถเข็นเด็ก",
+        "cat_type": 3,
+        "parent_id": 1000114,
+        "sort": 2
+      },
+      {
+        "id": 1000134,
+        "name": "咖啡",
+        "name_en": "Coffee",
+        "name_th": "กาแฟ",
+        "cat_type": 3,
+        "parent_id": 1000124,
+        "sort": 2
+      },
+      {
+        "id": 1000233,
+        "name": "头发护理",
+        "name_en": "Hair Treatment",
+        "name_th": "ทรีตเมนต์บำรุงผม",
+        "cat_type": 3,
+        "parent_id": 1000212,
+        "sort": 2
+      },
+      {
+        "id": 1000242,
+        "name": "脸颊",
+        "name_en": "Cheek",
+        "name_th": "แก้ม",
+        "cat_type": 3,
+        "parent_id": 1000214,
+        "sort": 2
+      },
+      {
+        "id": 1000255,
+        "name": "口腔清洁",
+        "name_en": "Oral Hygiene",
+        "name_th": "ดูแลช่องปาก",
+        "cat_type": 3,
+        "parent_id": 1000216,
+        "sort": 2
+      },
+      {
+        "id": 1000271,
+        "name": "爽肤水",
+        "name_en": "Toner",
+        "name_th": "โทนเนอร์",
+        "cat_type": 3,
+        "parent_id": 1000219,
+        "sort": 2
+      },
+      {
+        "id": 1001199,
+        "name": "外设",
+        "name_en": "External Hard Drives",
+        "name_th": "ฮาร์ดดิสก์ภายนอก",
+        "cat_type": 3,
+        "parent_id": 1001151,
+        "sort": 2
+      },
+      {
+        "id": 1001209,
+        "name": "数字",
+        "name_en": "Digital Compact",
+        "name_th": "กล้องขนาดเล็กเปลี่ยนเลนส์ไม่ได้",
+        "cat_type": 3,
+        "parent_id": 1001204,
+        "sort": 2
+      },
+      {
+        "id": 1001221,
+        "name": "家庭娱乐",
+        "name_en": "Home Entertainment",
+        "name_th": "เครื่องเสียงและโฮมเธียร์เตอร์",
+        "cat_type": 3,
+        "parent_id": 1001205,
+        "sort": 2
+      },
+      {
+        "id": 1001294,
+        "name": "空气清新剂",
+        "name_en": "Air Freshener",
+        "name_th": "ผลิตภัณฑ์ปรับอากาศ",
+        "cat_type": 3,
+        "parent_id": 1001285,
+        "sort": 2
+      },
+      {
+        "id": 1001307,
+        "name": "抹布",
+        "name_en": "Moist Wipes",
+        "name_th": "ทิชชู่เปียก",
+        "cat_type": 3,
+        "parent_id": 1001286,
+        "sort": 2
+      },
+      {
+        "id": 1001311,
+        "name": "柔顺剂",
+        "name_en": "Softener",
+        "name_th": "น้ำยาปรับผ้านุ่ม",
+        "cat_type": 3,
+        "parent_id": 1001287,
+        "sort": 2
+      },
+      {
+        "id": 1001373,
+        "name": "厨房家具",
+        "name_en": "Kitchen Furniture",
+        "name_th": "เฟอร์นิเจอร์ในห้องครัว",
+        "cat_type": 3,
+        "parent_id": 1001360,
+        "sort": 2
+      },
+      {
+        "id": 1001434,
+        "name": "牛仔",
+        "name_en": "Jeans",
+        "name_th": "ยีนส์",
+        "cat_type": 3,
+        "parent_id": 1001426,
+        "sort": 2
+      },
+      {
+        "id": 1001459,
+        "name": "芭蕾鞋",
+        "name_en": "Ballerina & Flats",
+        "name_th": " บัลเลรีน่าและส้นแบน",
+        "cat_type": 3,
+        "parent_id": 1001427,
+        "sort": 2
+      },
+      {
+        "id": 1001473,
+        "name": "背包",
+        "name_en": "Backpacks",
+        "name_th": "กระเป๋าเป้สะพายหลัง",
+        "cat_type": 3,
+        "parent_id": 1001432,
+        "sort": 2
+      },
+      {
+        "id": 1001482,
+        "name": "耳环",
+        "name_en": "Earrings",
+        "name_th": "ต่างหู",
+        "cat_type": 3,
+        "parent_id": 1001430,
+        "sort": 2
+      },
+      {
+        "id": 1001674,
+        "name": "体重和力量训练",
+        "name_en": "Weight & Strength Training",
+        "name_th": "อุปกรณ์และเครื่องยกน้ำหนัก",
+        "cat_type": 3,
+        "parent_id": 1001641,
+        "sort": 2
+      },
+      {
+        "id": 1001794,
+        "name": "腰带和扣腰带",
+        "name_en": "Belts & Buckles",
+        "name_th": "เข็มขัด และหัวเข็มขัด",
+        "cat_type": 3,
+        "parent_id": 1001490,
+        "sort": 2
+      },
+      {
+        "id": 1001820,
+        "name": "硬件设备",
+        "name_en": "Hardware",
+        "name_th": "อุปกรณ์ฮาร์ดแวร์",
+        "cat_type": 3,
+        "parent_id": 1001368,
+        "sort": 2
+      },
+      {
+        "id": 1001835,
+        "name": "青年人",
+        "name_en": "Teen & Young Adult",
+        "name_th": "วัยรุ่น และ คนหนุ่มสาว",
+        "cat_type": 3,
+        "parent_id": 1001410,
+        "sort": 2
+      },
+      {
+        "id": 1001919,
+        "name": "吸尘器",
+        "name_en": "Vacuum Cleaners",
+        "name_th": "เครื่องดูดฝุ่น",
+        "cat_type": 3,
+        "parent_id": 1001918,
+        "sort": 2
+      },
+      {
+        "id": 1001929,
+        "name": "电动平底锅/烤盘",
+        "name_en": "Electric Pan / Grill Pans",
+        "name_th": "กระทะไฟฟ้า",
+        "cat_type": 3,
+        "parent_id": 1001926,
+        "sort": 2
+      },
+      {
+        "id": 1002035,
+        "name": "手机充电器",
+        "name_en": "Phone Chargers",
+        "name_th": "อุปกรณ์ชาร์จมือถือ",
+        "cat_type": 3,
+        "parent_id": 1001207,
+        "sort": 2
+      },
+      {
+        "id": 1002073,
+        "name": "台灯",
+        "name_en": "Table Lamp",
+        "name_th": "โคมไฟตั้งโต๊ะ",
+        "cat_type": 3,
+        "parent_id": 1001902,
+        "sort": 2
+      },
+      {
+        "id": 1002148,
+        "name": "城市单车",
+        "name_en": "City Bikes",
+        "name_th": "จักรยานสำหรับในเมือง",
+        "cat_type": 3,
+        "parent_id": 1001642,
+        "sort": 2
+      },
+      {
+        "id": 1000086,
+        "name": "高脚椅",
+        "name_en": "Highchair",
+        "name_th": "เก้าอี้สำหรับเด็ก",
+        "cat_type": 3,
+        "parent_id": 1000083,
+        "sort": 3
+      },
+      {
+        "id": 1000109,
+        "name": "教育玩具",
+        "name_en": "Educational Toys",
+        "name_th": "ของเล่นเพื่อการศึกษา",
+        "cat_type": 3,
+        "parent_id": 1000105,
+        "sort": 3
+      },
+      {
+        "id": 1000135,
+        "name": "浓缩饮料",
+        "name_en": "Concentrated Drinks",
+        "name_th": "เครื่องดื่มชนิดเข้มข้น",
+        "cat_type": 3,
+        "parent_id": 1000124,
+        "sort": 3
+      },
+      {
+        "id": 1000182,
+        "name": "花生坚果",
+        "name_en": "Peas & Nuts",
+        "name_th": "ถั่วขบเคี้ยว",
+        "cat_type": 3,
+        "parent_id": 1000132,
+        "sort": 3
+      },
+      {
+        "id": 1000335,
+        "name": "电缆和转换器",
+        "name_en": "Cables & Converters",
+        "name_th": "สายชาร์จและตัวแปลง",
+        "cat_type": 3,
+        "parent_id": 1000332,
+        "sort": 3
+      },
+      {
+        "id": 1001198,
+        "name": "U盘",
+        "name_en": "USB Flash Drives",
+        "name_th": "แฟลชไดร์ฟ",
+        "cat_type": 3,
+        "parent_id": 1001151,
+        "sort": 3
+      },
+      {
+        "id": 1001220,
+        "name": "便携式播放器",
+        "name_en": "Portable Players",
+        "name_th": "เครื่องเล่นเสียงและวีดีโอแบบพกพา",
+        "cat_type": 3,
+        "parent_id": 1001205,
+        "sort": 3
+      },
+      {
+        "id": 1001299,
+        "name": "通用清洁剂",
+        "name_en": "General Purpose Cleaners",
+        "name_th": "ทำความสะอาดอเนกประสงค์",
+        "cat_type": 3,
+        "parent_id": 1001285,
+        "sort": 3
+      },
+      {
+        "id": 1001305,
+        "name": "厨房用纸",
+        "name_en": "Kitchen Tissue",
+        "name_th": "กระดาษชำระสำหรับใช้ในครัว",
+        "cat_type": 3,
+        "parent_id": 1001286,
+        "sort": 3
+      },
+      {
+        "id": 1001457,
+        "name": "凉鞋&拖鞋",
+        "name_en": "Sandals & Flip Flops",
+        "name_th": "รองเท้าแตะมีส้น",
+        "cat_type": 3,
+        "parent_id": 1001427,
+        "sort": 3
+      },
+      {
+        "id": 1001474,
+        "name": "旅行箱包",
+        "name_en": "Travel Bags & Luggage",
+        "name_th": "กระเป๋าเดินทาง",
+        "cat_type": 3,
+        "parent_id": 1001432,
+        "sort": 3
+      },
+      {
+        "id": 1001486,
+        "name": "手链",
+        "name_en": "Bracelets",
+        "name_th": "สร้อยข้อมือ",
+        "cat_type": 3,
+        "parent_id": 1001430,
+        "sort": 3
+      },
+      {
+        "id": 1001498,
+        "name": "上衣",
+        "name_en": "Tops",
+        "name_th": "เสื้อผ้าสวมใส่ด้านบน",
+        "cat_type": 3,
+        "parent_id": 1001495,
+        "sort": 3
+      },
+      {
+        "id": 1001651,
+        "name": "帽子",
+        "name_en": "Hats & Caps",
+        "name_th": "หมวกและหมวกแก๊ป",
+        "cat_type": 3,
+        "parent_id": 1001634,
+        "sort": 3
+      },
+      {
+        "id": 1001671,
+        "name": "体育追踪者",
+        "name_en": "Sport Trackers",
+        "name_th": "อุปกรณ์วัดการออกกำลังกาย",
+        "cat_type": 3,
+        "parent_id": 1001641,
+        "sort": 3
+      },
+      {
+        "id": 1001675,
+        "name": "跑步机",
+        "name_en": "Treadmills",
+        "name_th": "ลู่วิ่งสายพาน",
+        "cat_type": 3,
+        "parent_id": 1001641,
+        "sort": 3
+      },
+      {
+        "id": 1001680,
+        "name": "折叠自行车",
+        "name_en": "Folding Bikes",
+        "name_th": "จักรยานพับ",
+        "cat_type": 3,
+        "parent_id": 1001642,
+        "sort": 3
+      },
+      {
+        "id": 1001802,
+        "name": "商务鞋",
+        "name_en": "Business & Dress Shoes ",
+        "name_th": "รองเท้าทางการ",
+        "cat_type": 3,
+        "parent_id": 1001493,
+        "sort": 3
+      },
+      {
+        "id": 1001808,
+        "name": "电子工具",
+        "name_en": "Electrical",
+        "name_th": "อุปกรณ์เกี่ยวกับไฟฟ้า",
+        "cat_type": 3,
+        "parent_id": 1001368,
+        "sort": 3
+      },
+      {
+        "id": 1001844,
+        "name": "电子产品和配件",
+        "name_en": "Electronics & Accessories",
+        "name_th": "อิเล็กทรอนิกส์และอุปกรณ์เสริม",
+        "cat_type": 3,
+        "parent_id": 1001837,
+        "sort": 3
+      },
+      {
+        "id": 1001920,
+        "name": "电熨斗 蒸汽熨斗和别的熨斗工具",
+        "name_en": "Irons, Steamers, and Accessories",
+        "name_th": "เตารีด เตารีดไอน้ำ และอุปกรณ์",
+        "cat_type": 3,
+        "parent_id": 1001918,
+        "sort": 3
+      },
+      {
+        "id": 92,
+        "name": "平板",
+        "name_en": "Tablets",
+        "name_th": "แท็บเล็ต",
+        "cat_type": 3,
+        "parent_id": 87,
+        "sort": 4
+      },
+      {
+        "id": 1000081,
+        "name": "一次性尿布裤",
+        "name_en": "Disposable Diaper Pants",
+        "name_th": "ผ้าอ้อมสำเร็จรูปแบบกางเกง",
+        "cat_type": 3,
+        "parent_id": 1000080,
+        "sort": 4
+      },
+      {
+        "id": 1000082,
+        "name": "一次性胶带尿布",
+        "name_en": "Disposable Tape Diapers",
+        "name_th": "ผ้าอ้อมสำเร็จรูปแบบเทปกาว",
+        "cat_type": 3,
+        "parent_id": 1000080,
+        "sort": 4
+      },
+      {
+        "id": 1000102,
+        "name": "婴儿超高温灭菌牛奶",
+        "name_en": "Baby UHT Milk",
+        "name_th": "นมยูเอชทีสำหรับเด็ก",
+        "cat_type": 3,
+        "parent_id": 1000100,
+        "sort": 4
+      },
+      {
+        "id": 1000139,
+        "name": "果汁",
+        "name_en": "Juice",
+        "name_th": "น้ำผลไม้",
+        "cat_type": 3,
+        "parent_id": 1000124,
+        "sort": 4
+      },
+      {
+        "id": 1000183,
+        "name": "海鲜零食",
+        "name_en": "Seafood Snacks",
+        "name_th": "สแน็คซีฟู้ด",
+        "cat_type": 3,
+        "parent_id": 1000132,
+        "sort": 4
+      },
+      {
+        "id": 1000264,
+        "name": "眼部护理",
+        "name_en": "Eye Treatment",
+        "name_th": "ครีมบำรุงดวงตา",
+        "cat_type": 3,
+        "parent_id": 1000219,
+        "sort": 4
+      },
+      {
+        "id": 1000336,
+        "name": "充电器",
+        "name_en": "Chargers",
+        "name_th": "ที่ชาร์จ",
+        "cat_type": 3,
+        "parent_id": 1000332,
+        "sort": 4
+      },
+      {
+        "id": 1001296,
+        "name": "地板护理",
+        "name_en": "Floor Care",
+        "name_th": "ทำความสะอาดพื้น",
+        "cat_type": 3,
+        "parent_id": 1001285,
+        "sort": 4
+      },
+      {
+        "id": 1001374,
+        "name": "家居家具",
+        "name_en": "Living Room Furniture",
+        "name_th": "เฟอร์นิเจอร์ในห้องนั่งเล่น",
+        "cat_type": 3,
+        "parent_id": 1001360,
+        "sort": 4
+      },
+      {
+        "id": 1001438,
+        "name": "上衣",
+        "name_en": "Tops",
+        "name_th": "เสื้อผ้าสวมใส่ด้านบน",
+        "cat_type": 3,
+        "parent_id": 1001426,
+        "sort": 4
+      },
+      {
+        "id": 1001465,
+        "name": "拖鞋",
+        "name_en": "Slip Ons & Mules",
+        "name_th": "รองเท้าแบบสวมและเปิดส้น",
+        "cat_type": 3,
+        "parent_id": 1001427,
+        "sort": 4
+      },
+      {
+        "id": 1001475,
+        "name": "其他包",
+        "name_en": "Other Bags",
+        "name_th": "กระเป๋าอื่นๆ",
+        "cat_type": 3,
+        "parent_id": 1001432,
+        "sort": 4
+      },
+      {
+        "id": 1001499,
+        "name": "T-Shirts",
+        "name_en": "T-Shirts",
+        "name_th": "เสื้อคอกลม",
+        "cat_type": 3,
+        "parent_id": 1001495,
+        "sort": 4
+      },
+      {
+        "id": 1001514,
+        "name": "滑板鞋",
+        "name_en": "Slip Ons & Mules",
+        "name_th": "รองเท้าแบบสวม",
+        "cat_type": 3,
+        "parent_id": 1001493,
+        "sort": 4
+      },
+      {
+        "id": 1001681,
+        "name": "儿童自行车",
+        "name_en": "Kids\u0027 Bikes",
+        "name_th": "จักรยานเด็ก",
+        "cat_type": 3,
+        "parent_id": 1001642,
+        "sort": 4
+      },
+      {
+        "id": 1001923,
+        "name": "空气净化器",
+        "name_en": "Air Purifier",
+        "name_th": "เครื่องฟอกอากาศ",
+        "cat_type": 3,
+        "parent_id": 1001918,
+        "sort": 4
+      },
+      {
+        "id": 1001930,
+        "name": "电水壶/热电池",
+        "name_en": "Electric Kettle / Thermopots",
+        "name_th": "กระติกน้ําร้อนและกาต้มน้ําไฟฟ้า",
+        "cat_type": 3,
+        "parent_id": 1001926,
+        "sort": 4
+      },
+      {
+        "id": 1000087,
+        "name": "餐具",
+        "name_en": "Tableware",
+        "name_th": "อุปกรณ์บนโต๊ะอาหารสำหรับเด็ก",
+        "cat_type": 3,
+        "parent_id": 1000083,
+        "sort": 5
+      },
+      {
+        "id": 1000266,
+        "name": "面部护理",
+        "name_en": "Facial Treatment",
+        "name_th": "ผลิตภัณฑ์บำรุงผิวหน้า",
+        "cat_type": 3,
+        "parent_id": 1000219,
+        "sort": 5
+      },
+      {
+        "id": 1000337,
+        "name": "自拍杆",
+        "name_en": "Selfie Sticks & Camera Peripherals",
+        "name_th": "ไม้เซลฟี่และอุปกรณ์ต่อพ่วงกล้อง",
+        "cat_type": 3,
+        "parent_id": 1000332,
+        "sort": 5
+      },
+      {
+        "id": 1001212,
+        "name": "拍立得",
+        "name_en": "Instant Camera",
+        "name_th": "กล้องโพลารอยด์",
+        "cat_type": 3,
+        "parent_id": 1001204,
+        "sort": 5
+      },
+      {
+        "id": 1001213,
+        "name": "录影机",
+        "name_en": "Video & Action Camcorder",
+        "name_th": "กล้องบันทึกวิดีโอ",
+        "cat_type": 3,
+        "parent_id": 1001204,
+        "sort": 5
+      },
+      {
+        "id": 1001216,
+        "name": "镜头",
+        "name_en": "Lenses",
+        "name_th": "เลนส์กล้อง",
+        "cat_type": 3,
+        "parent_id": 1001204,
+        "sort": 5
+      },
+      {
+        "id": 1001218,
+        "name": "耳机",
+        "name_en": "Headphones & Headsets",
+        "name_th": "หูฟัง และหูฟังพร้อมไมโครโฟน",
+        "cat_type": 3,
+        "parent_id": 1001205,
+        "sort": 5
+      },
+      {
+        "id": 1001219,
+        "name": "音响",
+        "name_en": "Speakers",
+        "name_th": "ลำโพง",
+        "cat_type": 3,
+        "parent_id": 1001205,
+        "sort": 5
+      },
+      {
+        "id": 1001222,
+        "name": "音频,视频外设",
+        "name_en": "Audio, Video Peripherals",
+        "name_th": "สายสัญญาณ อุปกรณ์ต่อพ่วง",
+        "cat_type": 3,
+        "parent_id": 1001205,
+        "sort": 5
+      },
+      {
+        "id": 1001223,
+        "name": "智能手环",
+        "name_en": "Smart Wristbands",
+        "name_th": "สายรัดข้อมมืออัจฉริยะ",
+        "cat_type": 3,
+        "parent_id": 1001206,
+        "sort": 5
+      },
+      {
+        "id": 1001224,
+        "name": "智能手表",
+        "name_en": "Smart Watches",
+        "name_th": "สมาร์ทวอทช์",
+        "cat_type": 3,
+        "parent_id": 1001206,
+        "sort": 5
+      },
+      {
+        "id": 1001227,
+        "name": "智能家居",
+        "name_en": "Smart Home",
+        "name_th": "บ้านอัจฉริยะ",
+        "cat_type": 3,
+        "parent_id": 1001206,
+        "sort": 5
+      },
+      {
+        "id": 1001230,
+        "name": "汽车相机",
+        "name_en": "Car Cameras",
+        "name_th": "กล้องติดรถยนต์",
+        "cat_type": 3,
+        "parent_id": 1001207,
+        "sort": 5
+      },
+      {
+        "id": 1001233,
+        "name": "存储卡",
+        "name_en": "Memory card",
+        "name_th": "การ์ดความจำ",
+        "cat_type": 3,
+        "parent_id": 1001208,
+        "sort": 5
+      },
+      {
+        "id": 1001297,
+        "name": "家具护理",
+        "name_en": "Furniture Care",
+        "name_th": "ทำความสะอาดเฟอร์นิเจอร์",
+        "cat_type": 3,
+        "parent_id": 1001285,
+        "sort": 5
+      },
+      {
+        "id": 1001377,
+        "name": "办公家具",
+        "name_en": "Office Furniture",
+        "name_th": "เฟอร์นิเจอร์สำนักงาน",
+        "cat_type": 3,
+        "parent_id": 1001360,
+        "sort": 5
+      },
+      {
+        "id": 1001444,
+        "name": "短裤",
+        "name_en": "Shorts",
+        "name_th": "กางเกงขาสั้น",
+        "cat_type": 3,
+        "parent_id": 1001426,
+        "sort": 5
+      },
+      {
+        "id": 1001485,
+        "name": "戒指",
+        "name_en": "Rings",
+        "name_th": "แหวน",
+        "cat_type": 3,
+        "parent_id": 1001430,
+        "sort": 5
+      },
+      {
+        "id": 1001500,
+        "name": "T恤",
+        "name_en": "Shirts",
+        "name_th": "เสื้อเชิ้ต",
+        "cat_type": 3,
+        "parent_id": 1001495,
+        "sort": 5
+      },
+      {
+        "id": 1001653,
+        "name": "手套",
+        "name_en": "Gloves",
+        "name_th": "ถุงมือ",
+        "cat_type": 3,
+        "parent_id": 1001634,
+        "sort": 5
+      },
+      {
+        "id": 1001682,
+        "name": "其他自行车",
+        "name_en": "Other Bikes",
+        "name_th": "จักรยานอื่นๆ",
+        "cat_type": 3,
+        "parent_id": 1001642,
+        "sort": 5
+      },
+      {
+        "id": 1001803,
+        "name": "其他旅行配件",
+        "name_en": "Other Travel Accessories",
+        "name_th": "อุปกรณ์เดินทางอื่นๆ",
+        "cat_type": 3,
+        "parent_id": 1001490,
+        "sort": 5
+      },
+      {
+        "id": 1001806,
+        "name": "水暖工具",
+        "name_en": "Bathroom Fixtures",
+        "name_th": "อุปกรณ์ติดตั้งและประปา",
+        "cat_type": 3,
+        "parent_id": 1001368,
+        "sort": 5
+      },
+      {
+        "id": 1001848,
+        "name": "照明及配件",
+        "name_en": "Lighting & Accessories",
+        "name_th": "ไฟรถยนต์และอุปกรณ์ตกแต่ง",
+        "cat_type": 3,
+        "parent_id": 1001837,
+        "sort": 5
+      },
+      {
+        "id": 1001873,
+        "name": "床垫",
+        "name_en": "Mattress",
+        "name_th": "ที่นอน",
+        "cat_type": 3,
+        "parent_id": 1001359,
+        "sort": 5
+      },
+      {
+        "id": 1001932,
+        "name": "电饭煲/蒸锅",
+        "name_en": "Rice Cooker / Steamer",
+        "name_th": "หม้อหุงข้าวและหม้อนึ่งไฟฟ้า",
+        "cat_type": 3,
+        "parent_id": 1001926,
+        "sort": 5
+      },
+      {
+        "id": 1002178,
+        "name": "Non-alcoholic Beverages",
+        "name_en": "Non-alcoholic Beverages",
+        "name_th": "เครื่องดื่มปราศจากแอลกอฮอล์",
+        "cat_type": 3,
+        "parent_id": 1000124,
+        "sort": 5
+      },
+      {
+        "id": 1002180,
+        "name": "Seaweed Snacks",
+        "name_en": "Seaweed Snacks",
+        "name_th": "สาหร่ายทะเลปรุงรส",
+        "cat_type": 3,
+        "parent_id": 1000132,
+        "sort": 5
+      },
+      {
+        "id": 1000089,
+        "name": "婴儿谷物",
+        "name_en": "Baby Instant Cereal",
+        "name_th": "อาหารเสริมธัญพืชสำหรับเด็ก",
+        "cat_type": 3,
+        "parent_id": 1000088,
+        "sort": 6
+      },
+      {
+        "id": 1000093,
+        "name": "Nutritional Supplement",
+        "name_en": "Nutritional Supplement",
+        "name_th": "วิตามินเสริมอาหารสำหรับเด็ก",
+        "cat_type": 3,
+        "parent_id": 1000088,
+        "sort": 6
+      },
+      {
+        "id": 1000108,
+        "name": "玩偶/毛绒玩具",
+        "name_en": "Dolls/Dolls Accessories/Stuffed Toys",
+        "name_th": "ตุ๊กตาและอุปกรณ์แต่งตัว",
+        "cat_type": 3,
+        "parent_id": 1000105,
+        "sort": 6
+      },
+      {
+        "id": 1000137,
+        "name": "饮用水和矿泉水",
+        "name_en": "Drinking & Mineral Water",
+        "name_th": "น้ำดื่มและน้ำแร่",
+        "cat_type": 3,
+        "parent_id": 1000124,
+        "sort": 6
+      },
+      {
+        "id": 1000267,
+        "name": "面膜",
+        "name_en": "Mask",
+        "name_th": "แผ่นมาส์กหน้า",
+        "cat_type": 3,
+        "parent_id": 1000219,
+        "sort": 6
+      },
+      {
+        "id": 1000338,
+        "name": "对接",
+        "name_en": "Docks & Stands",
+        "name_th": "แท่นชาร์จและขาตั้ง",
+        "cat_type": 3,
+        "parent_id": 1000332,
+        "sort": 6
+      },
+      {
+        "id": 1001164,
+        "name": "路由器",
+        "name_en": "Routers & Access Points",
+        "name_th": "อุปกรณ์รับ-ส่งสัญญาณเครือข่าย",
+        "cat_type": 3,
+        "parent_id": 1001148,
+        "sort": 6
+      },
+      {
+        "id": 1001165,
+        "name": "网络交换机",
+        "name_en": "Network Switches",
+        "name_th": "เครื่องสลับสัญญาณอินเตอร์เน็ต",
+        "cat_type": 3,
+        "parent_id": 1001148,
+        "sort": 6
+      },
+      {
+        "id": 1001168,
+        "name": "调制解调器",
+        "name_en": "Modems",
+        "name_th": "โมเด็ม",
+        "cat_type": 3,
+        "parent_id": 1001148,
+        "sort": 6
+      },
+      {
+        "id": 1001169,
+        "name": "网络适配器",
+        "name_en": "Network Adaptors",
+        "name_th": "การ์ด LAN/ WLAN",
+        "cat_type": 3,
+        "parent_id": 1001148,
+        "sort": 6
+      },
+      {
+        "id": 1001193,
+        "name": "鼠标",
+        "name_en": "Mice",
+        "name_th": "เมาส์",
+        "cat_type": 3,
+        "parent_id": 1001151,
+        "sort": 6
+      },
+      {
+        "id": 1001194,
+        "name": "键盘",
+        "name_en": "Keyboards",
+        "name_th": "คีย์บอร์ด",
+        "cat_type": 3,
+        "parent_id": 1001151,
+        "sort": 6
+      },
+      {
+        "id": 1001217,
+        "name": "相机配件",
+        "name_en": "Camera Accessories",
+        "name_th": "อุปกรณ์เสริมอื่นๆสำหรับกล้อง",
+        "cat_type": 3,
+        "parent_id": 1001204,
+        "sort": 6
+      },
+      {
+        "id": 1001300,
+        "name": "鞋&足部护理",
+        "name_en": "Shoe & Foot Care",
+        "name_th": "ดูแลรองเท้าและเท้า",
+        "cat_type": 3,
+        "parent_id": 1001285,
+        "sort": 6
+      },
+      {
+        "id": 1001372,
+        "name": "收纳",
+        "name_en": "Organizer",
+        "name_th": "อุปกรณ์จัดระเบียบ",
+        "cat_type": 3,
+        "parent_id": 1001360,
+        "sort": 6
+      },
+      {
+        "id": 1001435,
+        "name": "短裙",
+        "name_en": "Skirts",
+        "name_th": "กระโปรง",
+        "cat_type": 3,
+        "parent_id": 1001426,
+        "sort": 6
+      },
+      {
+        "id": 1001501,
+        "name": "Polo衫",
+        "name_en": "Polo Shirts",
+        "name_th": "เสื้อโปโล",
+        "cat_type": 3,
+        "parent_id": 1001495,
+        "sort": 6
+      },
+      {
+        "id": 1001512,
+        "name": "Sandals & Flip Flops",
+        "name_en": "Sandals & Flip Flops",
+        "name_th": "รองเท้าแตะมีส้น",
+        "cat_type": 3,
+        "parent_id": 1001493,
+        "sort": 6
+      },
+      {
+        "id": 1001522,
+        "name": "时尚手袋",
+        "name_en": "Fashion Bags",
+        "name_th": "กระเป๋าแฟชั่น",
+        "cat_type": 3,
+        "parent_id": 1001494,
+        "sort": 6
+      },
+      {
+        "id": 1001523,
+        "name": "钱包",
+        "name_en": "Wallets",
+        "name_th": "กระเป๋าสตางค์",
+        "cat_type": 3,
+        "parent_id": 1001494,
+        "sort": 6
+      },
+      {
+        "id": 1001524,
+        "name": "背包",
+        "name_en": "Backpacks",
+        "name_th": "กระเป๋าเป้สะพายหลัง",
+        "cat_type": 3,
+        "parent_id": 1001494,
+        "sort": 6
+      },
+      {
+        "id": 1001525,
+        "name": "旅行箱包",
+        "name_en": "Travel Bags & Luggage",
+        "name_th": "กระเป๋าเดินทาง",
+        "cat_type": 3,
+        "parent_id": 1001494,
+        "sort": 6
+      },
+      {
+        "id": 1001526,
+        "name": "其他包",
+        "name_en": "Other Bags",
+        "name_th": "กระเป๋าอื่นๆ",
+        "cat_type": 3,
+        "parent_id": 1001494,
+        "sort": 6
+      },
+      {
+        "id": 1001683,
+        "name": "自行车零件/轮胎及配件",
+        "name_en": "Bike Parts, Tires & Accessories",
+        "name_th": "อุปกรณ์จักรยานอื่นๆ",
+        "cat_type": 3,
+        "parent_id": 1001642,
+        "sort": 6
+      },
+      {
+        "id": 1001780,
+        "name": "模拟手表",
+        "name_en": "Analogue Watches",
+        "name_th": "เข็ม",
+        "cat_type": 3,
+        "parent_id": 1001491,
+        "sort": 6
+      },
+      {
+        "id": 1001781,
+        "name": "电子手表",
+        "name_en": "Digital Watches",
+        "name_th": "ดิจิทัล",
+        "cat_type": 3,
+        "parent_id": 1001491,
+        "sort": 6
+      },
+      {
+        "id": 1001782,
+        "name": "运动员的时钟",
+        "name_en": "Sport Watches",
+        "name_th": "นาฬิกาสำหรับนักกีฬา",
+        "cat_type": 3,
+        "parent_id": 1001491,
+        "sort": 6
+      },
+      {
+        "id": 1001886,
+        "name": "装饰设备",
+        "name_en": "Decorative Item",
+        "name_th": "อุปกรณ์ตกแต่ง",
+        "cat_type": 3,
+        "parent_id": 1001366,
+        "sort": 6
+      },
+      {
+        "id": 1001935,
+        "name": "煤气灶",
+        "name_en": "Gas Stove",
+        "name_th": "เตาแก๊ส",
+        "cat_type": 3,
+        "parent_id": 1001926,
+        "sort": 6
+      },
+      {
+        "id": 1000111,
+        "name": "婴儿玩具",
+        "name_en": "Infant Toys",
+        "name_th": "ของเล่นเด็กอ่อน",
+        "cat_type": 3,
+        "parent_id": 1000105,
+        "sort": 7
+      },
+      {
+        "id": 1000138,
+        "name": "能量饮品",
+        "name_en": "Energy Drinks",
+        "name_th": "เครื่องดื่มชูกำลัง",
+        "cat_type": 3,
+        "parent_id": 1000124,
+        "sort": 7
+      },
+      {
+        "id": 1000268,
+        "name": "男士护理",
+        "name_en": "Men's Grooming",
+        "name_th": "อุปกรณ์โกนหนวดสำหรับผู้ชาย",
+        "cat_type": 3,
+        "parent_id": 1000219,
+        "sort": 7
+      },
+      {
+        "id": 1000333,
+        "name": "Micro SD卡",
+        "name_en": "Micro SD Cards",
+        "name_th": "การ์ดไมโครเอสดี",
+        "cat_type": 3,
+        "parent_id": 1000332,
+        "sort": 7
+      },
+      {
+        "id": 1001214,
+        "name": "无人机",
+        "name_en": "Drones",
+        "name_th": "โดรน",
+        "cat_type": 3,
+        "parent_id": 1001204,
+        "sort": 7
+      },
+      {
+        "id": 1001301,
+        "name": "专业清洁剂",
+        "name_en": "Specialty Cleaners",
+        "name_th": "ทำความสะอาดเฉพาะทาง",
+        "cat_type": 3,
+        "parent_id": 1001285,
+        "sort": 7
+      },
+      {
+        "id": 1001376,
+        "name": "户外家具",
+        "name_en": "Outdoor Furniture",
+        "name_th": "เฟอร์นิเจอร์กลางแจ้ง",
+        "cat_type": 3,
+        "parent_id": 1001360,
+        "sort": 7
+      },
+      {
+        "id": 1001464,
+        "name": "船鞋",
+        "name_en": "Loafers Moccasins & Boat Shoes",
+        "name_th": "รองเท้าโลฟเฟอร์",
+        "cat_type": 3,
+        "parent_id": 1001427,
+        "sort": 7
+      },
+      {
+        "id": 1001476,
+        "name": "饰品",
+        "name_en": "Accessories",
+        "name_th": "เครื่องประดับ",
+        "cat_type": 3,
+        "parent_id": 1001431,
+        "sort": 7
+      },
+      {
+        "id": 1001481,
+        "name": "其他旅行配件",
+        "name_en": "Other Travel Accessories",
+        "name_th": "อุปกรณ์เดินทางอื่นๆ",
+        "cat_type": 3,
+        "parent_id": 1001431,
+        "sort": 7
+      },
+      {
+        "id": 1001506,
+        "name": "短裤",
+        "name_en": "Shorts",
+        "name_th": "กางเกงขาสั้น",
+        "cat_type": 3,
+        "parent_id": 1001495,
+        "sort": 7
+      },
+      {
+        "id": 1001515,
+        "name": "船鞋",
+        "name_en": "Loafers, Moccasins & Boat Shoes",
+        "name_th": "รองเท้าโลฟเฟอร์",
+        "cat_type": 3,
+        "parent_id": 1001493,
+        "sort": 7
+      },
+      {
+        "id": 1001758,
+        "name": "Analogue Watches",
+        "name_en": "Analogue Watches",
+        "name_th": "เข็ม",
+        "cat_type": 3,
+        "parent_id": 1001428,
+        "sort": 7
+      },
+      {
+        "id": 1001759,
+        "name": "电子手表",
+        "name_en": "Digital Watches",
+        "name_th": "ดิจิตัล",
+        "cat_type": 3,
+        "parent_id": 1001428,
+        "sort": 7
+      },
+      {
+        "id": 1001760,
+        "name": "运动手表",
+        "name_en": "Sport Watches",
+        "name_th": "กีฬา",
+        "cat_type": 3,
+        "parent_id": 1001428,
+        "sort": 7
+      },
+      {
+        "id": 1001875,
+        "name": "毛巾",
+        "name_en": "Towel",
+        "name_th": "ผ้าขนหนู",
+        "cat_type": 3,
+        "parent_id": 1001359,
+        "sort": 7
+      },
+      {
+        "id": 1001934,
+        "name": "烤面包机/三明治机",
+        "name_en": "Toasters / Sandwich Makers",
+        "name_th": "เครื่องปิ้งขนมปังและเครื่องทำแซนวิช",
+        "cat_type": 3,
+        "parent_id": 1001926,
+        "sort": 7
+      },
+      {
+        "id": 1000099,
+        "name": "鞋",
+        "name_en": "Shoes",
+        "name_th": "รองเท้า",
+        "cat_type": 3,
+        "parent_id": 1000094,
+        "sort": 8
+      },
+      {
+        "id": 1000112,
+        "name": "拼图",
+        "name_en": "Jigsaw Puzzles",
+        "name_th": "จิ๊กซอว์",
+        "cat_type": 3,
+        "parent_id": 1000105,
+        "sort": 8
+      },
+      {
+        "id": 1000270,
+        "name": "防晒",
+        "name_en": "Sun Care",
+        "name_th": "ผลิตภัณฑ์กันแดด",
+        "cat_type": 3,
+        "parent_id": 1000219,
+        "sort": 8
+      },
+      {
+        "id": 1000875,
+        "name": "4K 超高清电视",
+        "name_en": "4K Ultra HD TVs",
+        "name_th": "ทีวี 4K Ultra HD",
+        "cat_type": 3,
+        "parent_id": 1000867,
+        "sort": 8
+      },
+      {
+        "id": 1000877,
+        "name": "LED & LCD 电视",
+        "name_en": "LED & LCD TVs",
+        "name_th": "ทีวี LED และ LCD",
+        "cat_type": 3,
+        "parent_id": 1000867,
+        "sort": 8
+      },
+      {
+        "id": 1000897,
+        "name": "洗衣机",
+        "name_en": "Washing Machine",
+        "name_th": "เครื่องซักผ้า",
+        "cat_type": 3,
+        "parent_id": 1000871,
+        "sort": 8
+      },
+      {
+        "id": 1000898,
+        "name": "干衣器",
+        "name_en": "Clothes Dryer",
+        "name_th": "เครื่องอบผ้า",
+        "cat_type": 3,
+        "parent_id": 1000871,
+        "sort": 8
+      },
+      {
+        "id": 1000899,
+        "name": "洗衣烘干一体机",
+        "name_en": "Washer and Dryer Combo",
+        "name_th": "เครื่องซักและอบผ้า",
+        "cat_type": 3,
+        "parent_id": 1000871,
+        "sort": 8
+      },
+      {
+        "id": 1000901,
+        "name": "并排",
+        "name_en": "Side-by-Side",
+        "name_th": "Side-by-Side",
+        "cat_type": 3,
+        "parent_id": 1000872,
+        "sort": 8
+      },
+      {
+        "id": 1000902,
+        "name": "酒饮冷却器",
+        "name_en": "Wine & Beverage Cooler",
+        "name_th": "ตู้เย็นสำหรับแช่ไวน์ และเครื่องดื่ม",
+        "cat_type": 3,
+        "parent_id": 1000872,
+        "sort": 8
+      },
+      {
+        "id": 1000903,
+        "name": "冰柜",
+        "name_en": "Freezers",
+        "name_th": "ตู้แช่แข็ง",
+        "cat_type": 3,
+        "parent_id": 1000872,
+        "sort": 8
+      },
+      {
+        "id": 1000904,
+        "name": "单门",
+        "name_en": "1 door",
+        "name_th": "1 ประตู",
+        "cat_type": 3,
+        "parent_id": 1000872,
+        "sort": 8
+      },
+      {
+        "id": 1000905,
+        "name": "双门",
+        "name_en": "2 doors",
+        "name_th": "2 ประตู",
+        "cat_type": 3,
+        "parent_id": 1000872,
+        "sort": 8
+      },
+      {
+        "id": 1001161,
+        "name": "风扇&散热器",
+        "name_en": "Fans & Heatsinks",
+        "name_th": "พัดลม และอุปกรณ์ระบายความร้อน",
+        "cat_type": 3,
+        "parent_id": 1001147,
+        "sort": 8
+      },
+      {
+        "id": 1001215,
+        "name": "安全摄像头",
+        "name_en": "Security Cameras & Systems",
+        "name_th": "กล้องวงจรปิด",
+        "cat_type": 3,
+        "parent_id": 1001204,
+        "sort": 8
+      },
+      {
+        "id": 1001302,
+        "name": "清洁用品",
+        "name_en": "Cleaning Supplies",
+        "name_th": "อุปกรณ์ทำความสะอาด",
+        "cat_type": 3,
+        "parent_id": 1001285,
+        "sort": 8
+      },
+      {
+        "id": 1001418,
+        "name": "童书",
+        "name_en": "Children's Books",
+        "name_th": "หนังสือเด็ก",
+        "cat_type": 3,
+        "parent_id": 1001410,
+        "sort": 8
+      },
+      {
+        "id": 1001451,
+        "name": "胸罩",
+        "name_en": "Bra",
+        "name_th": "เสื้อชั้นใน",
+        "cat_type": 3,
+        "parent_id": 1001426,
+        "sort": 8
+      },
+      {
+        "id": 1001470,
+        "name": "球鞋",
+        "name_en": "Sneakers",
+        "name_th": "รองเท้าผ้าใบ",
+        "cat_type": 3,
+        "parent_id": 1001427,
+        "sort": 8
+      },
+      {
+        "id": 1001507,
+        "name": "长裤",
+        "name_en": "Long Pants",
+        "name_th": "กางเกงขายาว",
+        "cat_type": 3,
+        "parent_id": 1001495,
+        "sort": 8
+      },
+      {
+        "id": 1001896,
+        "name": "做饭设备",
+        "name_en": "Cooking Tools",
+        "name_th": "อุปกรณ์ทำอาหาร",
+        "cat_type": 3,
+        "parent_id": 1001361,
+        "sort": 8
+      },
+      {
+        "id": 1001897,
+        "name": "厨房设备和做饭设备",
+        "name_en": "Kitchen Utensils",
+        "name_th": "เครื่องครัวและอุปกรณ์ทำอาหาร",
+        "cat_type": 3,
+        "parent_id": 1001361,
+        "sort": 8
+      },
+      {
+        "id": 1001898,
+        "name": "饭桌上的用品",
+        "name_en": "Tabletop & Serveware",
+        "name_th": "อุปกรณ์บนโต๊ะอาหาร",
+        "cat_type": 3,
+        "parent_id": 1001361,
+        "sort": 8
+      },
+      {
+        "id": 1001899,
+        "name": "甜品设备",
+        "name_en": "Bakery",
+        "name_th": "อุปกรณ์เบเกอรี่",
+        "cat_type": 3,
+        "parent_id": 1001361,
+        "sort": 8
+      },
+      {
+        "id": 1001900,
+        "name": "茶和咖啡",
+        "name_en": "Coffee & Tea",
+        "name_th": "ชาและกาแฟ",
+        "cat_type": 3,
+        "parent_id": 1001361,
+        "sort": 8
+      },
+      {
+        "id": 1001901,
+        "name": "贮存食品和饮料的工具",
+        "name_en": "Food & Cool Storage",
+        "name_th": "อุปกรณ์เก็บอาหาร",
+        "cat_type": 3,
+        "parent_id": 1001361,
+        "sort": 8
+      },
+      {
+        "id": 1001931,
+        "name": "油炸锅",
+        "name_en": "Fryer",
+        "name_th": "หม้อทอดไฟฟ้า",
+        "cat_type": 3,
+        "parent_id": 1001926,
+        "sort": 8
+      },
+      {
+        "id": 1002151,
+        "name": "工艺品/爱好/家居与园艺",
+        "name_en": "Crafts, Hobbies, Home & Garden",
+        "name_th": "งานฝีมือ งานอดิเรก บ้านและสวน",
+        "cat_type": 3,
+        "parent_id": 1001410,
+        "sort": 8
+      },
+      {
+        "id": 1000140,
+        "name": "软饮料",
+        "name_en": "Soft Drinks",
+        "name_th": "น้ำอัดลม",
+        "cat_type": 3,
+        "parent_id": 1000124,
+        "sort": 9
+      },
+      {
+        "id": 1000141,
+        "name": "茶",
+        "name_en": "Tea",
+        "name_th": "ชา",
+        "cat_type": 3,
+        "parent_id": 1000124,
+        "sort": 9
+      },
+      {
+        "id": 1000142,
+        "name": "饼干",
+        "name_en": "Biscuits",
+        "name_th": "บิสกิต",
+        "cat_type": 3,
+        "parent_id": 1000125,
+        "sort": 9
+      },
+      {
+        "id": 1000143,
+        "name": "饼干",
+        "name_en": "Crackers",
+        "name_th": "แครกเกอร์",
+        "cat_type": 3,
+        "parent_id": 1000125,
+        "sort": 9
+      },
+      {
+        "id": 1000144,
+        "name": "硅片/蛋糕和派",
+        "name_en": "Wafer, Cake & Pie",
+        "name_th": "เวเฟอร์ เค้ก และพาย",
+        "cat_type": 3,
+        "parent_id": 1000125,
+        "sort": 9
+      },
+      {
+        "id": 1000145,
+        "name": "糖果",
+        "name_en": "Candy",
+        "name_th": "ลูกอม",
+        "cat_type": 3,
+        "parent_id": 1000126,
+        "sort": 9
+      },
+      {
+        "id": 1000147,
+        "name": "口香糖和口气清新剂",
+        "name_en": "Gum & Breath Fresheners",
+        "name_th": "หมากฝรั่งและลูกอมเพื่อลมหายใจสดชื่น",
+        "cat_type": 3,
+        "parent_id": 1000126,
+        "sort": 9
+      },
+      {
+        "id": 1000148,
+        "name": "果冻",
+        "name_en": "Jelly",
+        "name_th": "เยลลี่",
+        "cat_type": 3,
+        "parent_id": 1000126,
+        "sort": 9
+      },
+      {
+        "id": 1000149,
+        "name": "烘焙和甜点",
+        "name_en": "Baking & Dessert",
+        "name_th": "ส่วนผสมทำขนมอบ และของหวาน",
+        "cat_type": 3,
+        "parent_id": 1000127,
+        "sort": 9
+      },
+      {
+        "id": 1000150,
+        "name": "干食物",
+        "name_en": "Dried Food",
+        "name_th": "อาหารแห้ง",
+        "cat_type": 3,
+        "parent_id": 1000127,
+        "sort": 9
+      },
+      {
+        "id": 1000151,
+        "name": "即食食品",
+        "name_en": "Instant Food",
+        "name_th": "อาหารกึ่งสำเร็จรูป",
+        "cat_type": 3,
+        "parent_id": 1000127,
+        "sort": 9
+      },
+      {
+        "id": 1000152,
+        "name": "方便面",
+        "name_en": "Instant Noodles",
+        "name_th": "บะหมี่กึ่งสำเร็จรูป",
+        "cat_type": 3,
+        "parent_id": 1000127,
+        "sort": 9
+      },
+      {
+        "id": 1000153,
+        "name": "面条",
+        "name_en": "Noodles & Pasta",
+        "name_th": "เส้นก๋วยเตี๋ยวและพาสต้า",
+        "cat_type": 3,
+        "parent_id": 1000127,
+        "sort": 9
+      },
+      {
+        "id": 1000154,
+        "name": "油",
+        "name_en": "Oil",
+        "name_th": "น้ำมัน",
+        "cat_type": 3,
+        "parent_id": 1000127,
+        "sort": 9
+      },
+      {
+        "id": 1000155,
+        "name": "罐装食品",
+        "name_en": "Packaged & Canned Food",
+        "name_th": "อาหารสำเร็จรูปพร้อมทาน",
+        "cat_type": 3,
+        "parent_id": 1000127,
+        "sort": 9
+      },
+      {
+        "id": 1000156,
+        "name": "米",
+        "name_en": "Rice",
+        "name_th": "ข้าว",
+        "cat_type": 3,
+        "parent_id": 1000127,
+        "sort": 9
+      },
+      {
+        "id": 1000157,
+        "name": "时蔬",
+        "name_en": "Seasonings",
+        "name_th": "เครื่องปรุงรส",
+        "cat_type": 3,
+        "parent_id": 1000127,
+        "sort": 9
+      },
+      {
+        "id": 1000158,
+        "name": "辣椒酱",
+        "name_en": "Spice & Sauce",
+        "name_th": "พริก และ ซอสปรุงรส",
+        "cat_type": 3,
+        "parent_id": 1000127,
+        "sort": 9
+      },
+      {
+        "id": 1000170,
+        "name": "谷物",
+        "name_en": "Cereal",
+        "name_th": "อาหารเช้าธัญพืช",
+        "cat_type": 3,
+        "parent_id": 1000129,
+        "sort": 9
+      },
+      {
+        "id": 1000172,
+        "name": "滋补",
+        "name_en": "Health Tonics",
+        "name_th": "Health Tonics",
+        "cat_type": 3,
+        "parent_id": 1000129,
+        "sort": 9
+      },
+      {
+        "id": 1000173,
+        "name": "啤酒",
+        "name_en": "Beer",
+        "name_th": "เบียร์",
+        "cat_type": 3,
+        "parent_id": 1000130,
+        "sort": 9
+      },
+      {
+        "id": 1000174,
+        "name": "烈酒",
+        "name_en": "Spirits",
+        "name_th": "เหล้า",
+        "cat_type": 3,
+        "parent_id": 1000130,
+        "sort": 9
+      },
+      {
+        "id": 1000175,
+        "name": "葡萄酒",
+        "name_en": "Wine",
+        "name_th": "ไวน์",
+        "cat_type": 3,
+        "parent_id": 1000130,
+        "sort": 9
+      },
+      {
+        "id": 1000176,
+        "name": "成人牛奶",
+        "name_en": "Adult Milk",
+        "name_th": "นมสำหรับผู้ใหญ่",
+        "cat_type": 3,
+        "parent_id": 1000131,
+        "sort": 9
+      },
+      {
+        "id": 1000177,
+        "name": "听装牛奶",
+        "name_en": "Canned Milk",
+        "name_th": "นมกระป๋อง",
+        "cat_type": 3,
+        "parent_id": 1000131,
+        "sort": 9
+      },
+      {
+        "id": 1000178,
+        "name": "UHT 牛奶",
+        "name_en": "UHT Milk",
+        "name_th": "นมยูเอ็ชที",
+        "cat_type": 3,
+        "parent_id": 1000131,
+        "sort": 9
+      },
+      {
+        "id": 1001312,
+        "name": "其他洗衣添加剂",
+        "name_en": "Other Laundry Additives",
+        "name_th": "อุปกรณ์ทำความสะอาดเสื้อผ้าอื่นๆ",
+        "cat_type": 3,
+        "parent_id": 1001287,
+        "sort": 9
+      },
+      {
+        "id": 1001313,
+        "name": "狗粮",
+        "name_en": "Dog Food",
+        "name_th": "อาหารสุนัข",
+        "cat_type": 3,
+        "parent_id": 1001288,
+        "sort": 9
+      },
+      {
+        "id": 1001877,
+        "name": "浴室地毯",
+        "name_en": "Bathroom Rug",
+        "name_th": "พรมเช็ดเท้า",
+        "cat_type": 3,
+        "parent_id": 1001359,
+        "sort": 9
+      },
+      {
+        "id": 1001983,
+        "name": "键盘和MIDI",
+        "name_en": "Keyboards & Midi",
+        "name_th": "คีย์บอร์ด และ คีย์บอร์ดใบ้",
+        "cat_type": 3,
+        "parent_id": 1001414,
+        "sort": 9
+      },
+      {
+        "id": 1001995,
+        "name": "制冰器",
+        "name_en": "Ice Maker",
+        "name_th": "เครื่องทำน้ำแข็ง",
+        "cat_type": 3,
+        "parent_id": 1001926,
+        "sort": 9
+      },
+      {
+        "id": 1002003,
+        "name": "传记与自传",
+        "name_en": "Biography & Autobiography",
+        "name_th": "ชีวประวัติ",
+        "cat_type": 3,
+        "parent_id": 1001410,
+        "sort": 9
+      },
+      {
+        "id": 1002166,
+        "name": "头发造型电器",
+        "name_en": "Hair Styling Appliances",
+        "name_th": "อุปกรณ์จัดแต่งทรงผม",
+        "cat_type": 3,
+        "parent_id": 1002165,
+        "sort": 9
+      },
+      {
+        "id": 1002168,
+        "name": "剃须刀/理发器",
+        "name_en": "Shavers & Hair Removal",
+        "name_th": "เครื่องโกนหนวด/กำจัดขน",
+        "cat_type": 3,
+        "parent_id": 1002165,
+        "sort": 9
+      },
+      {
+        "id": 1002169,
+        "name": "口腔护理电器",
+        "name_en": "Oral Care Appliances",
+        "name_th": "แปรงสีฟันไฟฟ้า",
+        "cat_type": 3,
+        "parent_id": 1002165,
+        "sort": 9
+      },
+      {
+        "id": 1002170,
+        "name": "Skin Care Appliances",
+        "name_en": "Skin Care Appliances",
+        "name_th": "อุปกรณ์ดูแลผิวพรรณ",
+        "cat_type": 3,
+        "parent_id": 1002165,
+        "sort": 9
+      },
+      {
+        "id": 1002190,
+        "name": "Pest Control",
+        "name_en": "Pest Control",
+        "name_th": "ป้องกันและกำจัดสัตว์รบกวน",
+        "cat_type": 3,
+        "parent_id": 1001285,
+        "sort": 9
+      },
+      {
+        "id": 1000079,
+        "name": "口腔护理",
+        "name_en": "Oral Care",
+        "name_th": "ผลิตภัณฑ์ดูแลช่องปาก",
+        "cat_type": 3,
+        "parent_id": 1000066,
+        "sort": 10
+      },
+      {
+        "id": 1001993,
+        "name": "Food Processor & Mixer",
+        "name_en": "Food Processor & Mixer",
+        "name_th": "เครื่องปั่นและเครื่องผสมอาหาร",
+        "cat_type": 3,
+        "parent_id": 1001926,
+        "sort": 10
+      },
+      {
+        "id": 1001662,
+        "name": "服饰",
+        "name_en": "Clothings",
+        "name_th": "เสื้อผ้า",
+        "cat_type": 3,
+        "parent_id": 1001635,
+        "sort": 11
+      },
+      {
+        "id": 1001663,
+        "name": "鞋",
+        "name_en": "Shoes",
+        "name_th": "รองเท้า",
+        "cat_type": 3,
+        "parent_id": 1001635,
+        "sort": 11
+      },
+      {
+        "id": 1001664,
+        "name": "服饰",
+        "name_en": "Clothings",
+        "name_th": "เสื้อผ้า",
+        "cat_type": 3,
+        "parent_id": 1001637,
+        "sort": 11
+      },
+      {
+        "id": 1001665,
+        "name": "鞋",
+        "name_en": "Shoes",
+        "name_th": "รองเท้า",
+        "cat_type": 3,
+        "parent_id": 1001637,
+        "sort": 11
+      },
+      {
+        "id": 1001668,
+        "name": "心脏设备",
+        "name_en": "Cardio Equipment",
+        "name_th": "เครื่องออกกำลังกายแบบคาร์ดิโอ",
+        "cat_type": 3,
+        "parent_id": 1001641,
+        "sort": 11
+      },
+      {
+        "id": 1001676,
+        "name": "振动平台机器",
+        "name_en": "Vibration Platform Machines",
+        "name_th": "เครื่องบริหารร่างกายระบบสั่น",
+        "cat_type": 3,
+        "parent_id": 1001641,
+        "sort": 11
+      },
+      {
+        "id": 1001678,
+        "name": "公路自行车",
+        "name_en": "Road Bikes",
+        "name_th": "จักรยานเสือหมอบ",
+        "cat_type": 3,
+        "parent_id": 1001642,
+        "sort": 11
+      },
+      {
+        "id": 1001679,
+        "name": "山地自行车",
+        "name_en": "Mountain Bikes",
+        "name_th": "จักรยานเสือภูเขา",
+        "cat_type": 3,
+        "parent_id": 1001642,
+        "sort": 11
+      },
+      {
+        "id": 1001711,
+        "name": "球",
+        "name_en": "Balls",
+        "name_th": "ลูกบอล",
+        "cat_type": 3,
+        "parent_id": 1001646,
+        "sort": 11
+      },
+      {
+        "id": 1001719,
+        "name": "背包和手袋",
+        "name_en": "Backpacks & Bags",
+        "name_th": "กระเป๋า และกระเป๋าเป้สะพายหลัง",
+        "cat_type": 3,
+        "parent_id": 1001647,
+        "sort": 11
+      },
+      {
+        "id": 1001720,
+        "name": "旅行箱包",
+        "name_en": "Travel Bags & Luggage",
+        "name_th": "กระเป๋าเดินทาง",
+        "cat_type": 3,
+        "parent_id": 1001647,
+        "sort": 11
+      },
+      {
+        "id": 1001805,
+        "name": "其他旅行配件",
+        "name_en": "Other Travel Accessories",
+        "name_th": "อุปกรณ์เดินทางอื่นๆ",
+        "cat_type": 3,
+        "parent_id": 1001647,
+        "sort": 11
+      },
+      {
+        "id": 1000245,
+        "name": "唇膏",
+        "name_en": "Lips",
+        "name_th": "ริมฝีปาก",
+        "cat_type": 3,
+        "parent_id": 1000214,
+        "sort": 14
+      },
+      {
+        "id": 1000246,
+        "name": "化妆品",
+        "name_en": "Makeup Accessories",
+        "name_th": "อุปกรณ์แต่งหน้า",
+        "cat_type": 3,
+        "parent_id": 1000214,
+        "sort": 14
+      },
+      {
+        "id": 1000247,
+        "name": "卸妆油",
+        "name_en": "Makeup Remover",
+        "name_th": "ล้างเครื่องสำอาง",
+        "cat_type": 3,
+        "parent_id": 1000214,
+        "sort": 14
+      },
+      {
+        "id": 1000248,
+        "name": "指甲",
+        "name_en": "Nail",
+        "name_th": "เล็บ",
+        "cat_type": 3,
+        "parent_id": 1000214,
+        "sort": 14
+      },
+      {
+        "id": 1001283,
+        "name": "除臭剂",
+        "name_en": "Deodorants",
+        "name_th": "ดับกลิ่นกาย",
+        "cat_type": 3,
+        "parent_id": 1000207,
+        "sort": 14
+      },
+      {
+        "id": 1002029,
+        "name": "染发",
+        "name_en": "Hair Coloring",
+        "name_th": "ผลิตภัณฑ์เปลี่ยนสีผม",
+        "cat_type": 3,
+        "parent_id": 1000212,
+        "sort": 14
+      },
+      {
+        "id": 1002150,
+        "name": "商业与投资",
+        "name_en": "Business & Investment",
+        "name_th": "ธุรกิจและการลงทุน",
+        "cat_type": 3,
+        "parent_id": 1001410,
+        "sort": 15
+      },
+      {
+        "id": 1000113,
+        "name": "轮子玩具",
+        "name_en": "Wheel Toys",
+        "name_th": "รถเข็นเด็กเล่น",
+        "cat_type": 3,
+        "parent_id": 1000105,
+        "sort": 16
+      },
+      {
+        "id": 1001836,
+        "name": "旅行和假日的手册",
+        "name_en": "Travel & Holiday Guides",
+        "name_th": "ท่องเที่ยว และ คู่มือวันหยุด",
+        "cat_type": 3,
+        "parent_id": 1001410,
+        "sort": 17
+      },
+      {
+        "id": 1001528,
+        "name": "文学与小说",
+        "name_en": "Literature & Fiction",
+        "name_th": "วรรณกรรม และ นิยาย",
+        "cat_type": 3,
+        "parent_id": 1001410,
+        "sort": 18
+      },
+      {
+        "id": 1001534,
+        "name": "外语学习",
+        "name_en": "Foreign Language Learning",
+        "name_th": "ภาษาต่างประเทศ",
+        "cat_type": 3,
+        "parent_id": 1001410,
+        "sort": 23
+      }
+    ]
+  }
+}

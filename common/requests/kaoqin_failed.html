@@ -1,0 +1,247 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="renderer" content="ie-stand">
+    <title>ERP登录</title>
+    <!-- S DNS预解析 -->
+    <link rel="dns-prefetch" href="">
+    <!-- E DNS预解析 -->
+    <link rel="stylesheet" href="/res/css/sso_login.css">
+    <link rel="stylesheet" href="/res/css/login.min.css">
+</head>
+<body>
+<div class="login">
+    <div class="valign_wrap">
+        <!-- +.withqrc 切换 -->
+        <div class="login_pop">
+            <div class="login_pop_inner login_withpc" style="height: 350px">
+                <!--[if lt IE 8]><span class="login_withpc_logo"></span><![endif]-->
+                <form class="login_form"  method="post" name="login_form">
+                    <input type="hidden" id="fp" name="fp">
+                    <!-- +.warn +.focus +.hide -->
+                    <div class="login_form_row account"><label class="login_form_label"><i class="login_form_icon"></i>
+                        <div class="login_form_inp"><input class="login_form_inp_input" type="text" id="username" name="username" placeholder="ERP账号/邮箱前缀">
+                        </div>
+                    </label></div>
+                    <div class="login_form_row password"><label class="login_form_label"><i class="login_form_icon"></i>
+                        <div class="login_form_inp"><input class="login_form_inp_input" type="password" id="password" name="password" placeholder="密码">
+                        </div>
+                    </label></div>
+
+                    <div class="login_form_row findback"><a href="/sso/findpwd/index">忘记密码？</a></div>
+                    <div class="login_form_row formsubmit"><input class="formsubmit_btn" type="submit"
+                                                                  value="登&nbsp;&nbsp;录"></div>
+                    <div class="login_form_row warntip hide" style="margin-top: 10px"><i class="warntip_icon"></i><span class="warntip_text"></span>
+                    </div>
+                    <div class="login-language">
+                        <span class="lan-title">语言选择</span>
+                        <div class="lan-part">
+                            <select class="lanselect" id="lanSelect" onchange="selectLan()">
+                                <option value="zh_CN">中文</option>
+                                <option value="en_US">English</option>
+                            </select>
+                        </div>
+                    </div>
+
+                </form>
+                <a class="login_style" href="javascript:;"></a>
+            </div>
+            <!-- +.succ -->
+            <div class="login_pop_inner login_withqrc">
+                <div class="login_withqrc_wrap">
+                    <div class="login_withqrc_tit">用京东ME 扫码安全登录</div>
+                    <div class="login_withqrc_code"><img id="qr_image" src="" width="150" height="150">
+                    </div>
+                    <div class="login_withqrc_tip"><a id="refresh_code" href="javascript:;">刷新二维码</a> <span class="login_withqrc_tip_sep">|</span>
+                        支持京东ME v2.6.0以上版本
+                    </div>
+                    <div class="login_form_row warntip hide"><i class="warntip_icon"></i><span class="warntip_text"></span>
+                    </div>
+                </div>
+                <div class="login_withqrc_result">
+                    <div class="login_withqrc_doge"></div>
+                    <div class="login_withqrc_succ">扫描成功！</div>
+                    <div class="login_withqrc_tip">请在手机上确认是否登录</div>
+                </div>
+                <a class="login_style" href="javascript:;"></a>
+            </div>
+        </div>
+    </div>
+    <!--[if lt IE 8]><span class="valign_after"></span><![endif]-->
+</div>
+
+<script src="/res/js/jquery.min.js"></script>
+<script src="/res/tools/md5.min.js?v=1536227422872" type="text/javascript"></script>
+<script src="//payrisk.jd.com/js/td.js?v=1536227422872" type="text/javascript"></script>
+<script>
+    var cookieName="jd.erp.lang";
+    initLan();
+    function  initLan() {
+        var x = document.cookie;
+        var s=getCookie(cookieName);
+        if(s!=""){
+            setCookie(cookieName,s);
+            setSelectChecked("lanSelect",s)
+        }else{
+            setCookie(cookieName,"zh_CN");
+        }
+    }
+    function selectLan() {
+        var nSel = document.getElementById("lanSelect");
+        var index = nSel.selectedIndex;
+        var value= nSel.options[index].value;
+        setCookie(cookieName,value);
+        reloadPage();
+    }
+    function reloadPage(){
+        location.reload()
+    }
+    function setCookie(name,value)
+    {
+        var Days = 30;
+        var exp = new Date();
+        exp.setTime(exp.getTime() + Days*24*60*60*1000);
+        var cookies=name + "="+ value+ ";domain=.jd.com;path=/;expires=" + exp.toGMTString();
+        document.cookie = name + "="+ value+ ";domain=.jd.com;path=/;expires=" + exp.toGMTString();
+        console.log(cookies)
+    }
+    function getCookie(name)
+    {
+        var arr,reg=new RegExp("(^| )"+name+"=([^;]*)(;|$)");
+
+        if(arr=document.cookie.match(reg))
+
+            return arr[2];
+        else
+            return "";
+    }
+    function setSelectChecked(selectId, checkValue){
+        var select = document.getElementById(selectId);
+        for(var i=0; i<select.options.length; i++){
+            if(select.options[i].value == checkValue){
+                select.options[i].selected = true;
+                break;
+            }
+        }
+    };
+    //删除cookies
+    function delCookie(name)
+    {
+        var exp = new Date();
+        exp.setTime(exp.getTime() - 1);
+        var cval=getCookie(name);
+        if(cval!=null)
+            document.cookie= name + "="+cval+";expires="+exp.toGMTString();
+    }
+    $(function () {
+        var timeout = false;
+        var returnUrl = "http://kaoqin.jd.com/kaoqin/checkInJsonp?tsDateDes=c1a3eabb807e87ad1a05ecafab59643df2413f&amp;tsDate=1536539546276";
+        var qrCheck;
+
+        function refreshImage() {
+            var now = new Date();
+            $("#qr_image").attr("src", "/sso/image?v=33&t=" + now.getTime());
+            stopCheck();
+            startCheck();
+            $('.warntip').hide();
+        }
+
+        function stopCheck() {
+            if (qrCheck != null) {
+                timeout = true;
+                window.clearInterval(qrCheck);
+            }
+        }
+
+        function startCheck() {
+            timeout = false;
+            qrCheck = window.setInterval(check, 1000);
+        }
+
+        function show_notice(content){
+            $('.warntip_text').html(content);
+            $('.warntip').show();
+        }
+
+        function check() {
+            if (timeout) {
+                return;
+            }
+            $.post("/sso/check.json", {"ReturnUrl": returnUrl,"fp":$("#fp").val(), "_t": (new Date()).getTime()}, function (data) {
+                if(data.REQ_CODE == -1){
+                    show_notice("登录超时，请刷新后重新扫描");
+                    $('.login_withqrc').removeClass('succ');
+                    stopCheck();
+                }else if(data.REQ_CODE == 202){
+                    $('.login_withqrc').addClass('succ');
+                    show_notice("等待手机客户端确认，请勿刷新页面");
+                }else if(data.REQ_CODE == 205){
+                    stopCheck();
+                    window.location.href=data.REQ_DATA;
+                }else if(data.REQ_CODE!== 201){
+                    show_notice(data.REQ_MSG);
+                    $('.login_withqrc').removeClass('succ');
+                    stopCheck();
+                }
+            },"json");
+        }
+
+        //设备指纹开始
+        try{
+            getJdEid(function(eid,fp){
+                $("#fp").val(eid);
+            });
+        }catch(e){
+            //你的逻辑
+        }
+        //设备指纹结束
+
+        $('.login_form_inp_input').focus(function () {
+            $('.login_form_row.focus').removeClass('focus');
+            $(this).parents('.login_form_row').addClass('focus');
+        }).blur(function () {
+            $('.login_form_row.focus').removeClass('focus');
+        });
+        $('.login_style').click(function () {
+            $('.login_pop').toggleClass('withqrc');
+            if($('.login_pop').hasClass("withqrc")){
+                refreshImage();
+            }else{
+                stopCheck();
+            }
+        });
+
+        $("#refresh_code").click(function () {
+            refreshImage();
+        });
+
+        $('.formsubmit_btn').click(function (event) {
+            if($("#username").val() ==""){
+                $('.login_form_row.account').addClass('warn');
+                event.preventDefault();
+            }
+            if($("#password").val() ==""){
+                $('.login_form_row.password').addClass('warn');
+                event.preventDefault();
+            }
+        });
+
+        if($.trim($('.warntip_text').html())!=""){
+            $('.warntip').show();
+        }
+
+        $("#jetui_erp_gx_close").click(function () {
+            $("#erp_gx").hide();
+        });
+
+
+        
+            });
+</script>
+
+</body>
+</html>
