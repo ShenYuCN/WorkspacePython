@@ -1,6 +1,6 @@
 import webbrowser
 
-url = 'http://erp.jd.com'
+url = 'http://wwww.baidu.com'
 # chrome_path = 'open -a /Applications/Google\ Chrome.app %s'
 # webbrowser.get(chrome_path).open(url)
 
