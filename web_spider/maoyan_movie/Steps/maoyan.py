@@ -23,7 +23,7 @@ class Maoyan():
 
 	def get_json(self):
 		response = requests.get(self.url,headers = self.headers)
-		print(response.text)
+		# print(response.text)
 		comments_json = json.loads(response.text)  # 字符串转json对象
 		return comments_json
 
