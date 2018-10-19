@@ -74,39 +74,46 @@ def word_cloud(content):
 
 #定义个函数式用于分词
 def jiebaclearText(text):
-    #定义一个空的列表，将去除的停用词的分词保存
-    mywordList=[]
-    text = re.sub('[,，。. \r\n]', '', text)
+	#定义一个空的列表，将去除的停用词的分词保存
+	mywordList=[]
+	text = re.sub('[,，。. \r\n]', '', text)
+
+	# 强制调高词频
+	# jieba.add_word('台中') 或者 jieba.suggest_freq('台中', True)
+
+	# jieba.add_word('校园暴力')
+	# jieba.suggest_freq('校园暴力')
+	
 	# jieba.cut 以及 jieba.cut_for_search 返回的结构都是一个可迭代的 generator，可以使用 for 循环来获得分词后得到的每一个词语(unicode)，或者用
 	# jieba.lcut 以及 jieba.lcut_for_search 直接返回 list
-    seg_list = jieba.cut(text,cut_all=False)
+	seg_list = jieba.cut(text,cut_all=False)
 
 
-    # 如果自己需要去掉个别停用词可以在这里替换  或者加入 stopwords_path 文件
-    # listStr='/'.join(seg_list)
-    # listStr = listStr.replace("真的","")
-    # listStr = listStr.replace("span", "")
-    # listStr = listStr.replace("悲伤逆流成河", "")
+	# 如果自己需要去掉个别停用词可以在这里替换  或者加入 stopwords_path 文件
+	# listStr='/'.join(seg_list)
+	# listStr = listStr.replace("真的","")
+	# listStr = listStr.replace("span", "")
+	# listStr = listStr.replace("悲伤逆流成河", "")
 
 
-    #打开停用词表
-    f_stop = open(stopwords_path,encoding="utf8")
-    #读取
-    try:
-        f_stop_text = f_stop.read()
-    finally:
-        f_stop.close()#关闭资源
+	#打开停用词表
+	f_stop = open(stopwords_path,encoding="utf8")
+	#读取
+	try:
+		f_stop_text = f_stop.read()
+	finally:
+		f_stop.close()#关闭资源
 
-    #将停用词格式化，用\n分开，返回一个列表
-    f_stop_seg_list = f_stop_text.split("\n")
+	#将停用词格式化，用\n分开，返回一个列表
+	f_stop_seg_list = f_stop_text.split("\n")
 
 
-    #对默认模式分词的进行遍历，去除停用词
-    for myword in seg_list:
-        #去除停用词
-        if not(myword.strip() in f_stop_seg_list) and len(myword.strip()) > 1:
-            mywordList.append(myword)
-    return ' '.join(mywordList)
+	#对默认模式分词的进行遍历，去除停用词
+	for myword in seg_list:
+		#去除停用词
+		if not(myword.strip() in f_stop_seg_list) and len(myword.strip()) > 1:
+			mywordList.append(myword)
+	return ' '.join(mywordList)
 
 
 # 评论者性别分布可视化
@@ -166,6 +173,7 @@ def score_rose_render(score):
 content = read_csv()
 
 segment_list = jiebaclearText(content)
+print(segment_list)
 word_cloud(segment_list)
 
 sex_render(gender)
