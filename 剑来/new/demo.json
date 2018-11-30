@@ -1,0 +1,35 @@
+{
+  "data": {
+    "isPublication": 0,
+    "salesMode": 1,
+    "vs": [
+      {
+        "vId": 60172322,
+        "cCnt": 124,
+        "vS": 0,
+        "isD": 0,
+        "vN": "正文卷",
+        "cs": [
+          {
+            "uuid": 4,
+            "cN": "第一章 沙漠中的彼岸花",
+            "uT": "2016-11-01 10:24:45",
+            "cnt": 2020,
+            "cU": "_AaqI-dPJJ4uTkiRw_sFYA2/-doT6biEpYlOBDFlr9quQA2",
+            "id": 339991957,
+            "sS": 1
+          },
+          {
+            "uuid": 5,
+            "cN": "第二章 后文明时代",
+            "uT": "2016-11-01 10:41:40",
+            "cnt": 2794,
+            "cU": "_AaqI-dPJJ4uTkiRw_sFYA2/-Yjl2ADCXQvM5j8_3RRvhw2",
+            "id": 340041926,
+            "sS": 1
+          }
+        ]
+      }
+    ]
+  }
+}

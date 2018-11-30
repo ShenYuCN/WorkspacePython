@@ -72,7 +72,7 @@ class Consumer(threading.Thread):
 def main():
     page_queue = Queue(100)
     img_queue = Queue(500)
-    for x in range(1,51): # 爬取前50页 range(1,3) 这里相当于 1 2
+    for x in range(1,3): # 爬取前50页 range(1,3) 这里相当于 1 2
 
         url = 'https://www.doutula.com/photo/list/?page=%d' % x
         # print(url)
