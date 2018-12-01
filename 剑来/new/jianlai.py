@@ -59,8 +59,10 @@ class QidianSpider(object):
 					time_num_str = content[0]
 					time = time_num_str[5:24]
 					num_l = time_num_str.index('章节字数：') + 5
-					limit = '2018-01-01 00:00'
-					if  time > limit:
+					limit_l = '2018-01-01 00:00'
+					limit_r = '2018-12-01 00:00'
+
+					if  time > limit_l and time < limit_r:
 						arr = [content[1], time_num_str[num_l:len(time_num_str)], time]
 						f_csv.writerow(arr)
 
@@ -82,7 +84,7 @@ class QidianParseJsonFile(object):
 			for x in vs:
 				cs = x['cs']
 				for model in cs:
-					if model['cnt'] > 1000 and model['uT'] > '2018-01-01 00:00':
+					if  model['cN'].startswith('第') and model['cnt'] > 1000 and model['uT'] > '2018-01-01 00:00' and model['uT'] < '2018-12-01 00:00':
 						f_csv.writerow([model['cN'],model['cnt'],model['uT']])
 
 
@@ -102,6 +104,40 @@ if __name__ == '__main__':
 	# chendong = QidianParseJsonFile('chendong.json','chendong.csv')
 	# chendong.get_save_csv()
 
+	"""
+	# 耳根，三寸人间 ergen_sancunrenjian
+	ergen = QidianSpider('https://book.qidian.com/info/1010327039#Catalog','ergen_sancunrenjian.csv')
+	ergen.get_save_csv()
 
+	# 耳根，一念永恒   ergen_yinianyonghang.json
+	ergen_yinianyonghang = QidianParseJsonFile('ergen_yinianyonghang.json','ergen_yinianyonghang.csv')
+	ergen_yinianyonghang.get_save_csv()
+
+	with open('ergen.csv','w') as f:
+		f_csv_writer = csv.writer(f)
+		with open('ergen_yinianyonghang.csv') as ergen_1:
+			ergen_1_reader = csv.reader(ergen_1)
+			for line in ergen_1_reader:
+				f_csv_writer.writerow(line)
+		with open('ergen_sancunrenjian.csv') as ergen_1:
+			ergen_1_reader = csv.reader(ergen_1)
+			for line in ergen_1_reader:
+				f_csv_writer.writerow(line)
+		
+	"""
+
+
+	# 宅猪 牧神记 
+	# zhaizhu = QidianParseJsonFile('zhaizhu.json','zhaizhu.csv')
+	# zhaizhu.get_save_csv()
+
+
+	# 愤怒的香蕉 赘婿 
+	zhuixu = QidianParseJsonFile('zhuixu.json','zhuixu.csv')
+	zhuixu.get_save_csv()
+
+	# 我吃西红柿 飞剑问道
+	# fanqie = QidianSpider('https://book.qidian.com/info/1010468795#Catalog','fanqie.csv')
+	# fanqie.get_save_csv()
 
 
