@@ -18,13 +18,19 @@ configure(global_theme = 'dark')
 # bar.add('服装',['a','b','c'],[5,20,50])
 # bar.render()
 
-Bar('示例').add('中间的',['a','b','c'],[5,20,50]).render()
+# Bar('示例').add('中间的',['a','b','c'],[5,20,50]).render()
 
 
 
-# CLOTHES = ["衬衫", "羊毛衫", "雪纺衫", "裤子", "高跟鞋", "袜子"]
-# clothes_v1 = [5, 20, 36, 10, 75, 90]
-# clothes_v2 = [10, 25, 8, 60, 20, 80]
+CLOTHES = ["衬衫", "羊毛衫", "雪纺衫", "裤子", "高跟鞋", "袜子"]
+clothes_v1 = [5, 20, 36, 10, 75, 90.6]
+clothes_v2 = [10, 25, 8.3, 60, 20, 80]
+
+
+(Bar("柱状图数据堆叠示例")
+    .add("商家A", CLOTHES, clothes_v1, is_label_show=True)
+    .add("商家B", CLOTHES, clothes_v2, is_label_show=True)
+    .render())
 
 # (Bar("柱状图数据堆叠示例")
 #     .add("商家A", CLOTHES, clothes_v1, is_stack=True)
